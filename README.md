@@ -35,8 +35,10 @@ It is just a demonstration of how to implement a simple event system in Java, in
 - [Fabric](https://fabricmc.net/develop/)
 
 ## Minecraft Versions Min JDK Requirements (LTS - Long Term Support)
+```
 26.1 and later -> java 25
 1.20.5 & 1.20.6 (1_20_R4) – 1.21.11 (R7) -> java 21
 1.17 – 1.20.4 (1_20_R3) -> Java 17
 1.13 – 1.16.5 -> java 11
 1.8 - 1.12.2 -> java 8
+```
