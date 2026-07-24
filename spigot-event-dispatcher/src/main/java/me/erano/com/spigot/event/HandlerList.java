@@ -1,6 +1,6 @@
 package me.erano.com.spigot.event;
 
-import me.erano.com.singlethreaded.RegisteredListener;
+import me.erano.com.spigot.RegisteredListener;
 
 import java.util.*;
 

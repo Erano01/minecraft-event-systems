@@ -1,8 +1,8 @@
 package me.erano.com.spigot;
 
-import me.erano.com.singlethreaded.event.Event;
-import me.erano.com.singlethreaded.event.EventException;
-import me.erano.com.singlethreaded.event.Listener;
+import me.erano.com.spigot.event.Event;
+import me.erano.com.spigot.event.EventException;
+import me.erano.com.spigot.event.Listener;
 import org.jetbrains.annotations.NotNull;
 
 public interface EventExecutor {

@@ -1,6 +1,6 @@
 package me.erano.com.spigot;
 
-import me.erano.com.singlethreaded.event.*;
+import me.erano.com.spigot.event.*;
 import org.jetbrains.annotations.NotNull;
 
 public class RegisteredListener {
