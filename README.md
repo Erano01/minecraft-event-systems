@@ -51,9 +51,11 @@ Given that there are no longer obfuscated names to translate from, the purpose o
 [Mappings](https://mappings.dev/main.html)
 
 ## Minecraft Mappings
+```
 1.14.4 - Latest -> Mojang's official & Searge & Spigot & Intermediary & Yarn mappings
 1.13.2 - 1.14.3 -> Searge & Spigot & Intermediary & Yarn mappings
 1.8.8 - 1.13.2 -> Searge & Spigot mappings
 
 // Yarn -> Fabric
 // Searge -> Forge
+```
