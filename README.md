@@ -26,3 +26,17 @@ Dispatcher EventBus Callback API
 Project itself can work independently of any Minecraft modding platform (framework-agnostic). 
 Project intent was not designed to work with any specific Minecraft modding platform.
 It is just a demonstration of how to implement a simple event system in Java, inspired by the event systems of popular Minecraft modding platforms.
+
+## Download for Minecraft Modding Platforms
+- [Spigot](https://www.spigotmc.org/wiki/buildtools/) - For advanced demonstration of event system (For Craftbukkit & NMS).
+- [Spigot-API](https://www.spigotmc.org/wiki/spigot-maven/) - for basic demonstration of event system.
+- [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)
+- [Forge-github](https://github.com/MinecraftForge)
+- [Fabric](https://fabricmc.net/develop/)
+
+## Minecraft Versions Min JDK Requirements (LTS - Long Term Support)
+26.1 and later -> java 25
+1.20.5 & 1.20.6 (1_20_R4) – 1.21.11 (R7) -> java 21
+1.17 – 1.20.4 (1_20_R3) -> Java 17
+1.13 – 1.16.5 -> java 11
+1.8 - 1.12.2 -> java 8
