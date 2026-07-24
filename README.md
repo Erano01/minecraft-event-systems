@@ -18,3 +18,6 @@ Observer Pattern
  Spigot    Forge   Fabric
 Dispatcher EventBus Callback API
 ```
+
+## Ecosystem
+![image](mc-ecosystem-overview.png)
