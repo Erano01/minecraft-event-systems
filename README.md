@@ -21,3 +21,8 @@ Dispatcher EventBus Callback API
 
 ## Ecosystem
 ![image](mc-ecosystem-overview.png)
+
+## How it Works
+Project itself can work independently of any Minecraft modding platform (framework-agnostic). 
+Project intent was not designed to work with any specific Minecraft modding platform.
+It is just a demonstration of how to implement a simple event system in Java, inspired by the event systems of popular Minecraft modding platforms.
