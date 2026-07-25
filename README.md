@@ -72,6 +72,7 @@ to actually run the server.
 
 - Spigot Server Bundler: ~/<optional-folder>/Buildtools/spigot-26.2.jar
 // It contains the Spigot server jar, which is used to run the server. It is not intended for use in an IDE.
+// We will look at it for dependency investigation, but we will not use it for development.
 
 - Spigot Deobfuscated / Mojang-mapped Src: ~/.m2/repository/org/spigotmc/spigot/26.2-R0.1-SNAPSHOT/
 // It only includes NMS+OBC+Spigot source code, with readable Mojang nameplates. There are no third-party dependencies; it's intended for use in an IDE when developing plugins.
