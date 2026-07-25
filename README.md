@@ -20,7 +20,7 @@ Dispatcher EventBus Callback API
 ```
 
 ## Ecosystem
-[Click me to see original photo](https://lucid.app/lucidchart/c92eac3b-899d-42aa-8241-5f5cc76dee75/edit?viewport_loc=8%2C-98%2C2958%2C1582%2C0_0&invitationId=inv_66e00f46-accd-48ba-8d1f-95ca54ad94a0)
+For original diagram: [LucidChart Link](https://lucid.app/lucidchart/c92eac3b-899d-42aa-8241-5f5cc76dee75/edit?viewport_loc=8%2C-98%2C2958%2C1582%2C0_0&invitationId=inv_66e00f46-accd-48ba-8d1f-95ca54ad94a0)
 
 ![image](mc-ecosystem-overview.png)
 
