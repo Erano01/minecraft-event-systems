@@ -66,18 +66,12 @@ Given that there are no longer obfuscated names to translate from, the purpose o
 ```
 After building the desired Spigot version with BuildTools, you can find the jar file containing the
 patched, Mojang-mapped (deobfuscated) NMS and OBC (CraftBukkit) sources in your local .m2 repository
-(the `-remapped-mojang` classifier).
-
-The jar file inside the BuildTools directory itself contains the same NMS, OBC, and Spigot code, but
-remapped to Spigot's own obfuscation mappings rather than readable Mojang names — it's the one used
-to actually run the server.
 
 - Spigot Server Bundler: ~/<optional-folder>/Buildtools/spigot-26.2.jar
-// It contains the Spigot server jar, which is used to run the server. It is not intended for use in an IDE.
-// We will look at it for dependency investigation, but we will not use it for development.
+// Includes Bukkit Source code
 
 - Spigot Deobfuscated / Mojang-mapped Src: ~/.m2/repository/org/spigotmc/spigot/26.2-R0.1-SNAPSHOT/
-// It only includes NMS+OBC+Spigot source code, with readable Mojang nameplates. There are no third-party dependencies; it's intended for use in an IDE when developing plugins.
+// It only includes NMS+OBC source code, with readable Mojang nameplates. There are no third-party dependencies; it's intended for use in an IDE when developing plugins.
 
 ~ means /home/<user>
 ```
