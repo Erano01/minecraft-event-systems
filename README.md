@@ -70,8 +70,11 @@ The jar file inside the BuildTools directory itself contains the same NMS, OBC, 
 remapped to Spigot's own obfuscation mappings rather than readable Mojang names — it's the one used
 to actually run the server.
 
-- Spigot SRC: ~/<optional-folder>/Buildtools/spigot-26.2.jar
-- NMS & OBC: ~/.m2/repository/org/spigotmc/spigot/26.2-R0.1-SNAPSHOT/
+- Spigot Server Bundler: ~/<optional-folder>/Buildtools/spigot-26.2.jar
+// It contains the Spigot server jar, which is used to run the server. It is not intended for use in an IDE.
+
+- Spigot Deobfuscated / Mojang-mapped Src: ~/.m2/repository/org/spigotmc/spigot/26.2-R0.1-SNAPSHOT/
+// It only includes NMS+OBC+Spigot source code, with readable Mojang nameplates. There are no third-party dependencies; it's intended for use in an IDE when developing plugins.
 
 ~ means /home/<user>
 ```
