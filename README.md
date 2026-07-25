@@ -59,3 +59,19 @@ Given that there are no longer obfuscated names to translate from, the purpose o
 // Yarn -> Fabric
 // Searge -> Forge
 ```
+
+## JADX JAR Paths
+```
+After building the desired Spigot version with BuildTools, you can find the jar file containing the
+patched, Mojang-mapped (deobfuscated) NMS and OBC (CraftBukkit) sources in your local .m2 repository
+(the `-remapped-mojang` classifier).
+
+The jar file inside the BuildTools directory itself contains the same NMS, OBC, and Spigot code, but
+remapped to Spigot's own obfuscation mappings rather than readable Mojang names — it's the one used
+to actually run the server.
+
+- Spigot SRC: ~/<optional-folder>/Buildtools/spigot-26.2.jar
+- NMS & OBC: ~/.m2/repository/org/spigotmc/spigot/26.2-R0.1-SNAPSHOT/
+
+~ means /home/<user>
+```
