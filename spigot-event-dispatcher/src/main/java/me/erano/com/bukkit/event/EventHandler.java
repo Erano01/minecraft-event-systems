@@ -1,4 +1,4 @@
-package me.erano.com.spigot.event;
+package me.erano.com.bukkit.event;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

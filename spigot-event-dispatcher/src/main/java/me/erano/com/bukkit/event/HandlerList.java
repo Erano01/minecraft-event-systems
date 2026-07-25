@@ -1,6 +1,6 @@
-package me.erano.com.spigot.event;
+package me.erano.com.bukkit.event;
 
-import me.erano.com.spigot.RegisteredListener;
+import me.erano.com.bukkit.plugin.RegisteredListener;
 
 import java.util.*;
 

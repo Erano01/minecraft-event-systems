@@ -1,4 +1,4 @@
-package me.erano.com.spigot;
+package me.erano.com.bukkit.plugin;
 
 public class Application {
 

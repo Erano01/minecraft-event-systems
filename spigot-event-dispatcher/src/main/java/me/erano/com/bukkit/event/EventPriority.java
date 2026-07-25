@@ -1,4 +1,4 @@
-package me.erano.com.spigot.event;
+package me.erano.com.bukkit.event;
 
 public enum EventPriority {
     LOWEST(0),

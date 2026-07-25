@@ -1,4 +1,4 @@
-package me.erano.com.spigot.event;
+package me.erano.com.bukkit.event;
 
 //observer, listener, subscriber
 //Simple interface for tagging all EventListeners - Marker interface

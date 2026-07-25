@@ -1,6 +1,6 @@
-package me.erano.com.spigot;
+package me.erano.com.bukkit.plugin;
 
-import me.erano.com.spigot.event.*;
+import me.erano.com.bukkit.event.*;
 import org.jetbrains.annotations.NotNull;
 
 public class RegisteredListener {
