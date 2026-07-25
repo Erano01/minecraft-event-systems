@@ -32,8 +32,8 @@ Project intent was not designed to work with any specific Minecraft modding plat
 It is just a demonstration of how to implement a simple event system in Java, inspired by the event systems of popular Minecraft modding platforms.
 
 ## Download for Minecraft Modding Platforms
-- [Spigot](https://www.spigotmc.org/wiki/buildtools/) - For advanced demonstration of event system (For Craftbukkit & NMS).
-- [Spigot-API](https://www.spigotmc.org/wiki/spigot-maven/) - for basic demonstration of event system.
+- [Spigot Buildtool](https://www.spigotmc.org/wiki/buildtools/)
+- [Spigot Maven](https://www.spigotmc.org/wiki/spigot-maven/)
 - [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)
 - [Forge-github](https://github.com/MinecraftForge)
 - [Fabric](https://fabricmc.net/develop/)
