@@ -22,6 +22,8 @@ Dispatcher EventBus Callback API
 ## Ecosystem
 ![image](mc-ecosystem-overview.png)
 
+![image](spigot-event-dispatcher/spigot-event-system.png)
+
 ## How it Works
 Project itself can work independently of any Minecraft modding platform (framework-agnostic). 
 Project intent was not designed to work with any specific Minecraft modding platform.
