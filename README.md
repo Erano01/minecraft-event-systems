@@ -60,7 +60,7 @@ Given that there are no longer obfuscated names to translate from, the purpose o
 // Searge -> Forge
 ```
 
-## JADX JAR Paths
+## JADX JAR Paths for Spigot (OBC + NMS included) 
 ```
 After building the desired Spigot version with BuildTools, you can find the jar file containing the
 patched, Mojang-mapped (deobfuscated) NMS and OBC (CraftBukkit) sources in your local .m2 repository
@@ -78,3 +78,5 @@ to actually run the server.
 
 ~ means /home/<user>
 ```
+
+## MDK For Forge
