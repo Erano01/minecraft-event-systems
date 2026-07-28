@@ -24,8 +24,6 @@ For original diagram: [LucidChart Link](https://lucid.app/lucidchart/c92eac3b-89
 
 ![image](mc-ecosystem-overview.png)
 
-![image](spigot-event-dispatcher/spigot-event-system.png)
-
 ## How it Works
 Project itself can work independently of any Minecraft modding platform (framework-agnostic). 
 Project intent was not designed to work with any specific Minecraft modding platform.
