@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/fabric-event-callback-api" />
             <option value="$PROJECT_DIR$/forge-event-bus" />
             <option value="$PROJECT_DIR$/spigot-event-dispatcher" />
+            <option value="$PROJECT_DIR$/spigot-plugin-impl" />
           </set>
         </option>
       </GradleProjectSettings>

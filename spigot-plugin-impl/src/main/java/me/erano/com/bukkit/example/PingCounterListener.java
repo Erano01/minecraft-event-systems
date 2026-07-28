@@ -1,8 +1,9 @@
-package me.erano.com.bukkit.event.example;
+package me.erano.com.bukkit.example;
 
 import me.erano.com.bukkit.event.EventHandler;
 import me.erano.com.bukkit.event.EventPriority;
 import me.erano.com.bukkit.event.Listener;
+import me.erano.com.bukkit.event.example.AsyncPingEvent;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

@@ -1,5 +1,5 @@
 plugins {
-    id("java")
+    id("java-library")
 }
 
 group = "me.erano.com.spigot"
@@ -10,5 +10,6 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains:annotations:26.1.0")
+    // api: gercek spigot-api de bu annotasyonlari plugin'lere transitive olarak sunar.
+    api("org.jetbrains:annotations:26.1.0")
 }

@@ -14,7 +14,7 @@ public class TimedRegisteredListener extends RegisteredListener {
     private Class<? extends Event> eventClass;
     private boolean multiple;
 
-    public TimedRegisteredListener(@NotNull Listener pluginListener, @NotNull EventExecutor eventExecutor, @NotNull EventPriority eventPriority, @NotNull Application registeredPlugin, boolean listenCancelled) {
+    public TimedRegisteredListener(@NotNull Listener pluginListener, @NotNull EventExecutor eventExecutor, @NotNull EventPriority eventPriority, @NotNull Plugin registeredPlugin, boolean listenCancelled) {
         super(pluginListener, eventExecutor, eventPriority, registeredPlugin, listenCancelled);
         this.multiple = false;
     }

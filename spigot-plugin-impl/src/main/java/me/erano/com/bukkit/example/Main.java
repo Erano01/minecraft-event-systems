@@ -1,12 +1,14 @@
-package me.erano.com.bukkit.plugin;
+package me.erano.com.bukkit.example;
 
 import me.erano.com.bukkit.event.EventPriority;
 import me.erano.com.bukkit.event.Listener;
 import me.erano.com.bukkit.event.example.AsyncPingEvent;
 import me.erano.com.bukkit.event.example.AsyncPlayerChatEvent;
-import me.erano.com.bukkit.event.example.ExampleListener;
-import me.erano.com.bukkit.event.example.PingCounterListener;
 import me.erano.com.bukkit.event.example.PlayerJoinEvent;
+import me.erano.com.bukkit.plugin.EventExecutor;
+import me.erano.com.bukkit.plugin.RegisteredListener;
+import me.erano.com.bukkit.plugin.SimplePluginManager;
+import me.erano.com.bukkit.plugin.java.JavaPluginLoader;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
@@ -16,41 +18,21 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /*
- * Gercek Bukkit'te bu rolu "Plugin" arayuzu (+ "JavaPlugin" temel sinifi) ustlenir:
- * PluginDescriptionFile (isim/versiyon/yazar), PluginLoader referansi, FileConfiguration,
- * DataFolder, Logger gibi cok sayida sorumlulugu var. Bizim CLI calismamizda tek bir
- * "Application" ornegi hem programin giris noktasi hem de kendi uzerine listener
- * kaydedecegimiz "sahip" (plugin) rolunu oynuyor - tipki gercek bir JavaPlugin'in
- * onEnable() icinde "getServer().getPluginManager().registerEvents(this, this)" cagirmasi gibi.
- * Bu yuzden sadece event dispatch'in ihtiyac duydugu iki alan yeterli: isim ve enabled durumu.
+ * Bu sinif "sunucu"yu (bootstrap) temsil ediyor. Gercek Bukkit'te bir plugin'i yukleyip
+ * enable eden ve fiili oyun olaylarini (bir oyuncu gercekten katildiginda PlayerJoinEvent
+ * gibi) tetikleyen sey PLUGIN DEGIL, sunucunun kendisidir (CraftBukkit/NMS katmani).
+ * ExamplePlugin sadece dinler (bkz. ExamplePlugin.onEnable -> registerEvents). O yuzden
+ * event tetikleme kodu burada, plugin sinifinin DISINDA.
  */
-public class Application {
-    private final String name;
-    private volatile boolean enabled;
-
-    public Application(@NotNull String name) {
-        this.name = name;
-        this.enabled = true;
-    }
-
-    @NotNull
-    public String getName() {
-        return this.name;
-    }
-
-    public boolean isEnabled() {
-        return this.enabled;
-    }
-
-    public void setEnabled(boolean enabled) {
-        this.enabled = enabled;
-    }
+public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         SimplePluginManager pluginManager = new SimplePluginManager();
-        Application app = new Application("study-app");
-        ExampleListener listener = new ExampleListener();
-        pluginManager.registerEvents(listener, app);
+        JavaPluginLoader pluginLoader = new JavaPluginLoader();
+
+        ExamplePlugin plugin = new ExamplePlugin();
+        plugin.attachPluginManager(pluginManager);
+        pluginLoader.enablePlugin(plugin); // -> setEnabled(true) -> onEnable() -> registerEvents(...)
 
         System.out.println("=== 1) Senkron event, ana thread'de ===");
         pluginManager.callEvent(new PlayerJoinEvent("Erano"));
@@ -72,13 +54,17 @@ public class Application {
 
         System.out.println();
         System.out.println("=== 4) Concurrency demo: HandlerList uzerinde concurrent register/unregister + concurrent async dispatch ===");
-        concurrencyDemo(pluginManager, app);
+        concurrencyDemo(pluginManager, plugin);
+
+        System.out.println();
+        System.out.println("=== 5) Plugin devre disi birakiliyor ===");
+        pluginLoader.disablePlugin(plugin);
     }
 
     /*
      * HandlerList'in gercek Bukkit'ten birebir tasidigimiz thread-guvenligi mekanizmasini
-     * (volatile 'handlers' dizisi + synchronized register/unregister/bake, bkz. HandlerList.java)
-     * gercek contention altinda calistiriyoruz:
+     * (volatile 'handlers' dizisi + synchronized register/unregister/bake, bkz.
+     * spigot-event-dispatcher: event.HandlerList) gercek contention altinda calistiriyoruz:
      *  - "publisher" thread'leri surekli AsyncPingEvent tetikliyor -> her seferinde
      *    HandlerList.getRegisteredListeners() (spin/retry) okunuyor.
      *  - "churn" thread'leri es zamanli olarak HandlerList'e register/unregister yapip
@@ -87,7 +73,7 @@ public class Application {
      * kayitli olan PingCounterListener yine de her event icin dogru sayilir - bu da volatile
      * alan uzerinden "safe publication"in calistigini kanitliyor (JCiP, Ch. 3).
      */
-    private static void concurrencyDemo(SimplePluginManager pluginManager, Application app) throws InterruptedException {
+    private static void concurrencyDemo(SimplePluginManager pluginManager, ExamplePlugin plugin) throws InterruptedException {
         int publisherCount = 4;
         int pingsPerPublisher = 500;
         int churnThreadCount = 2;
@@ -97,7 +83,7 @@ public class Application {
         CountDownLatch startLatch = new CountDownLatch(1);
         CountDownLatch publishersDone = new CountDownLatch(publisherCount);
 
-        pluginManager.registerEvents(new PingCounterListener(delivered), app);
+        pluginManager.registerEvents(new PingCounterListener(delivered), plugin);
 
         List<Thread> churnThreads = new ArrayList<>();
         for (int i = 0; i < churnThreadCount; i++) {
@@ -107,7 +93,7 @@ public class Application {
                 };
                 while (churnRunning.get()) {
                     RegisteredListener rl = new RegisteredListener(new Listener() {
-                    }, noop, EventPriority.NORMAL, app, false);
+                    }, noop, EventPriority.NORMAL, plugin, false);
                     AsyncPingEvent.getHandlerList().register(rl);
                     AsyncPingEvent.getHandlerList().unregister(rl);
                 }

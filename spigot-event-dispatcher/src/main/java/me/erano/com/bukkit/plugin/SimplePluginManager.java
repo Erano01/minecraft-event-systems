@@ -4,6 +4,7 @@ import me.erano.com.bukkit.event.Event;
 import me.erano.com.bukkit.event.EventPriority;
 import me.erano.com.bukkit.event.HandlerList;
 import me.erano.com.bukkit.event.Listener;
+import me.erano.com.bukkit.plugin.java.JavaPluginLoader;
 import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.Method;
@@ -21,7 +22,8 @@ import java.util.Set;
  *  - loadPlugin(s)/registerInterface/checkUpdate: jar dosyalarini diskten okuyup
  *    PluginLoader araciligiyla siniflandirma, dependency graph ile yukleme sirasini cozme.
  *  - enablePlugin/disablePlugin/clearPlugins: plugin yasam donguesunu Scheduler,
- *    ServicesManager, Messenger ve World chunk-ticket sistemlerine baglama.
+ *    ServicesManager, Messenger ve World chunk-ticket sistemlerine baglama (bizde bu
+ *    donguenun event-disi kismi JavaPluginLoader.enablePlugin/disablePlugin'e tasindi).
  *  - addPermission/subscribeToPermission/calculatePermissionDefault/dirtyPermissibles vb.:
  *    Permission/Permissible yetkilendirme alt sistemi.
  * Bunlarin hicbiri event dispatch/concurrency mekanizmasinin parcasi degil, bu yuzden bu
@@ -65,46 +67,46 @@ public class SimplePluginManager implements PluginManager {
         HandlerList handlers = event.getHandlers();
         RegisteredListener[] listeners = handlers.getRegisteredListeners();
         for (RegisteredListener registration : listeners) {
-            if (registration.getApplication().isEnabled()) {
+            if (registration.getPlugin().isEnabled()) {
                 try {
                     registration.callEvent(event);
                 } catch (Throwable ex) {
-                    System.err.println("Could not pass event " + event.getEventName() + " to " + registration.getApplication().getName() + ": " + ex);
+                    System.err.println("Could not pass event " + event.getEventName() + " to " + registration.getPlugin().getName() + ": " + ex);
                 }
             }
         }
     }
 
     @Override
-    public void registerEvents(@NotNull Listener listener, @NotNull Application application) {
-        if (!application.isEnabled()) {
+    public void registerEvents(@NotNull Listener listener, @NotNull Plugin plugin) {
+        if (!plugin.isEnabled()) {
             throw new IllegalPluginAccessException("Plugin attempted to register " + listener + " while not enabled");
         }
-        for (Map.Entry<Class<? extends Event>, Set<RegisteredListener>> entry : this.pluginLoader.createRegisteredListeners(listener, application).entrySet()) {
+        for (Map.Entry<Class<? extends Event>, Set<RegisteredListener>> entry : this.pluginLoader.createRegisteredListeners(listener, plugin).entrySet()) {
             getEventListeners(getRegistrationClass(entry.getKey())).registerAll(entry.getValue());
         }
     }
 
     @Override
-    public void registerEvent(@NotNull Class<? extends Event> event, @NotNull Listener listener, @NotNull EventPriority priority, @NotNull EventExecutor executor, @NotNull Application application) {
-        registerEvent(event, listener, priority, executor, application, false);
+    public void registerEvent(@NotNull Class<? extends Event> event, @NotNull Listener listener, @NotNull EventPriority priority, @NotNull EventExecutor executor, @NotNull Plugin plugin) {
+        registerEvent(event, listener, priority, executor, plugin, false);
     }
 
     @Override
-    public void registerEvent(@NotNull Class<? extends Event> event, @NotNull Listener listener, @NotNull EventPriority priority, @NotNull EventExecutor executor, @NotNull Application application, boolean ignoreCancelled) {
+    public void registerEvent(@NotNull Class<? extends Event> event, @NotNull Listener listener, @NotNull EventPriority priority, @NotNull EventExecutor executor, @NotNull Plugin plugin, boolean ignoreCancelled) {
         // Gercek Bukkit burada Guava'nin Preconditions.checkArgument'ini kullanir; bu
         // modulun bagimliligi olmadigindan ayni davranisi Objects.requireNonNull ile veriyoruz.
         Objects.requireNonNull(listener, "Listener cannot be null");
         Objects.requireNonNull(priority, "Priority cannot be null");
         Objects.requireNonNull(executor, "Executor cannot be null");
-        Objects.requireNonNull(application, "Application cannot be null");
-        if (!application.isEnabled()) {
+        Objects.requireNonNull(plugin, "Plugin cannot be null");
+        if (!plugin.isEnabled()) {
             throw new IllegalPluginAccessException("Plugin attempted to register " + event + " while not enabled");
         }
         if (this.useTimings) {
-            getEventListeners(event).register(new TimedRegisteredListener(listener, executor, priority, application, ignoreCancelled));
+            getEventListeners(event).register(new TimedRegisteredListener(listener, executor, priority, plugin, ignoreCancelled));
         } else {
-            getEventListeners(event).register(new RegisteredListener(listener, executor, priority, application, ignoreCancelled));
+            getEventListeners(event).register(new RegisteredListener(listener, executor, priority, plugin, ignoreCancelled));
         }
     }
 

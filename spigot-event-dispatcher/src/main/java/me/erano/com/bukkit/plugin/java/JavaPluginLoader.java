@@ -1,9 +1,12 @@
-package me.erano.com.bukkit.plugin;
+package me.erano.com.bukkit.plugin.java;
 
 import me.erano.com.bukkit.event.Event;
 import me.erano.com.bukkit.event.EventException;
 import me.erano.com.bukkit.event.EventHandler;
 import me.erano.com.bukkit.event.Listener;
+import me.erano.com.bukkit.plugin.EventExecutor;
+import me.erano.com.bukkit.plugin.Plugin;
+import me.erano.com.bukkit.plugin.RegisteredListener;
 import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.InvocationTargetException;
@@ -14,22 +17,23 @@ import java.util.Map;
 import java.util.Set;
 
 /*
- * Gercek Bukkit'te bu sinif "PluginLoader" arayuzunun bir implementasyonudur (org.bukkit.plugin.java.JavaPluginLoader).
- * Gercek JavaPluginLoader ayrica su sorumluluklari da tasir:
+ * Gercek org.bukkit.plugin.java.JavaPluginLoader, "PluginLoader" arayuzunun bir
+ * implementasyonudur ve ayrica su sorumluluklari da tasir:
  *  - plugin.yml / PluginDescriptionFile okuma ve dogrulama
- *  - jar dosyasindan PluginClassLoader kurup plugin sinifini instantiate etme
- *  - enablePlugin/disablePlugin cagrilarini plugin yasam donguslune baglama
- * Bunlarin hicbiri event dispatch/concurrency mekanizmasinin parcasi degil (disk I/O,
- * classloading ve plugin yasam donguesu konulari), bu yuzden implement edilmiyor.
- *
- * Burada sadece event kayit hattinin gercek kalbi olan metot birebir tasiniyor:
- * bir Listener'in @EventHandler ile isaretli metotlarini reflection ile bulup her biri
- * icin bir EventExecutor (adapter) ureten mekanizma.
+ *  - jar dosyasindan PluginClassLoader kurup plugin sinifini instantiate etme (loadPlugin)
+ *  - enablePlugin/disablePlugin sirasinda PluginEnableEvent/PluginDisableEvent firlatma ve
+ *    PluginClassLoader'i kapatip sinif kayitlarini temizleme
+ * plugin.yml/jar/classloading kismi (disk I/O, classloading) event dispatch/concurrency
+ * mekanizmasinin parcasi degil - implement edilmiyor. Ama enablePlugin/disablePlugin'in
+ * "ayni pakette oldugu icin JavaPlugin.setEnabled(boolean)'i protected olarak cagirabilme"
+ * mekanizmasi dogrudan bizim Plugin yasam donguesu (isEnabled/onEnable/onDisable, bkz.
+ * JavaPlugin.java) ile ilgili oldugundan BIREBIR korunuyor (sadece Logger/ClassLoader/
+ * PluginEnableEvent-PluginDisableEvent kismi cikarildi, yorumla isaretlendi).
  */
 public class JavaPluginLoader {
 
     @NotNull
-    public Map<Class<? extends Event>, Set<RegisteredListener>> createRegisteredListeners(@NotNull Listener listener, @NotNull Application plugin) {
+    public Map<Class<? extends Event>, Set<RegisteredListener>> createRegisteredListeners(@NotNull Listener listener, @NotNull Plugin plugin) {
         Map<Class<? extends Event>, Set<RegisteredListener>> map = new HashMap<>();
 
         Method[] publicMethods = listener.getClass().getMethods();
@@ -87,5 +91,23 @@ public class JavaPluginLoader {
         }
 
         return map;
+    }
+
+    /*
+     * Gercek versiyonda ClassLoader kaydi, PluginEnableEvent firlatma ve Logger cagrilari da
+     * var (bkz. sinif basi yorum) - onlar cikarildi. Kalan kalp: ayni paket icinde oldugumuz
+     * icin JavaPlugin.setEnabled(protected)'i dogrudan cagirabiliyoruz, tipki gercekte oldugu
+     * gibi.
+     */
+    public void enablePlugin(@NotNull JavaPlugin plugin) {
+        if (!plugin.isEnabled()) {
+            plugin.setEnabled(true);
+        }
+    }
+
+    public void disablePlugin(@NotNull JavaPlugin plugin) {
+        if (plugin.isEnabled()) {
+            plugin.setEnabled(false);
+        }
     }
 }
