@@ -1,6 +1,6 @@
 package me.erano.com.bukkit.event;
 
-import me.erano.com.bukkit.plugin.Application;
+import me.erano.com.bukkit.plugin.Plugin;
 import me.erano.com.bukkit.plugin.RegisteredListener;
 import org.jetbrains.annotations.NotNull;
 
@@ -44,13 +44,13 @@ public class HandlerList {
         }
     }
 
-    public static void unregisterAll(@NotNull Application application) {
+    public static void unregisterAll(@NotNull Plugin plugin) {
         synchronized(allLists) {
             Iterator var2 = allLists.iterator();
 
             while(var2.hasNext()) {
                 HandlerList h = (HandlerList)var2.next();
-                h.unregister(application);
+                h.unregister(plugin);
             }
 
         }
@@ -108,7 +108,7 @@ public class HandlerList {
 
     }
 
-    public synchronized void unregister(@NotNull Application application) {
+    public synchronized void unregister(@NotNull Plugin plugin) {
         boolean changed = false;
         Iterator var3 = this.handlerslots.values().iterator();
 
@@ -117,7 +117,7 @@ public class HandlerList {
             ListIterator i = list.listIterator();
 
             while(i.hasNext()) {
-                if (((RegisteredListener)i.next()).getApplication().equals(application)) {
+                if (((RegisteredListener)i.next()).getPlugin().equals(plugin)) {
                     i.remove();
                     changed = true;
                 }
@@ -180,7 +180,7 @@ public class HandlerList {
     }
 
     @NotNull
-    public static ArrayList<RegisteredListener> getRegisteredListeners(@NotNull Application application) {
+    public static ArrayList<RegisteredListener> getRegisteredListeners(@NotNull Plugin plugin) {
         ArrayList<RegisteredListener> listeners = new ArrayList();
         synchronized(allLists) {
             Iterator var2 = allLists.iterator();
@@ -196,7 +196,7 @@ public class HandlerList {
 
                         while(var7.hasNext()) {
                             RegisteredListener listener = (RegisteredListener)var7.next();
-                            if (listener.getApplication().equals(application)) {
+                            if (listener.getPlugin().equals(plugin)) {
                                 listeners.add(listener);
                             }
                         }

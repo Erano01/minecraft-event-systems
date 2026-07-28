@@ -1,9 +1,18 @@
-package me.erano.com.bukkit.event.example;
+package me.erano.com.bukkit.example;
 
 import me.erano.com.bukkit.event.EventHandler;
 import me.erano.com.bukkit.event.EventPriority;
 import me.erano.com.bukkit.event.Listener;
+import me.erano.com.bukkit.event.example.AsyncPlayerChatEvent;
+import me.erano.com.bukkit.event.example.PlayerJoinEvent;
 
+/*
+ * spigot-event-dispatcher gercek Bukkit'te "spigot-api" rolunu oynuyor: event tipleri
+ * (PlayerJoinEvent, AsyncPlayerChatEvent...) orada tanimli. Bu sinif ise gercek bir plugin
+ * jar'inin icindeki Listener implementasyonu gibi burada, spigot-plugin-impl'de yasiyor -
+ * tipki gercek Bukkit ekosisteminde plugin'lerin spigot-api'ye bagimli olup kendi
+ * Listener'larini kendi jar'larinda tasimasi gibi.
+ */
 public class ExampleListener implements Listener {
 
     @EventHandler(priority = EventPriority.LOWEST)
