@@ -41,3 +41,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+### Kisisel JCiP notlari ###
+jcip-*.md
