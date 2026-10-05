@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "examplemod",
+	"version": "1.0.0",
+	"name": "Example Mod",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.erano.com.fabric.example.ExampleMod"
+		],
+		"server": [
+			"me.erano.com.fabric.example.ExampleMod::onInitializeServer"
+		]
+	}
+}

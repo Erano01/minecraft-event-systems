@@ -1,5 +1,5 @@
 plugins {
-    id("java")
+    id("java-library")
 }
 
 group = "me.erano.com.fabric"
@@ -10,11 +10,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:6.0.0"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-}
-
-tasks.test {
-    useJUnitPlatform()
+    // Gercek fabric-api-base de Guava'nin MapMaker'ini kullanir (EventFactoryImpl.ARRAY_BACKED_EVENTS).
+    implementation("com.google.guava:guava:33.5.0-jre")
+    // fabric.mod.json okumak icin. Gercek loader kendi icine gommeli bir JSON okuyucu kullanir.
+    implementation("com.google.code.gson:gson:2.13.2")
 }
