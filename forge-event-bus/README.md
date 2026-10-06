@@ -3,6 +3,10 @@
 Forge 26.1.2-64.0.8 event bus'inin (EventBus 7.0.1) ve mod yukleme (FML) mekanizmasinin JADX ile
 incelenip yeniden uretilmis hali. Concurrency analizi: [concurrency-model.md](concurrency-model.md).
 
+## GoF Observer eslesmesi
+
+![Forge EventBus Observer UML diyagrami](forge-eventbus-observer-uml.svg)
+
 ## Modul ayrimi
 
 | Gercek ekosistem | Bizim modulumuz | Rolu |
