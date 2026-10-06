@@ -9,27 +9,37 @@ Concurrency analizi: [concurrency-model.md](concurrency-model.md).
 
 ![Bukkit event sistemi Observer UML diyagrami](bukkit-observer-uml.svg)
 
+## Paket yapisi
+
+`me.erano.com.bukkit` = `org.bukkit`. Alt paketler gercek spigot-api ile ayni:
+`event`, `event.player`, `event.server`, `entity`, `plugin`, `plugin.java`.
+
 ## Sinif haritasi
 
-| Gercek Bukkit sinifi | Bizim sinifimiz | Durum |
-|---|---|---|
-| `org.bukkit.event.Event` | `event.Event` | birebir |
-| `org.bukkit.event.Listener` | `event.Listener` | birebir (marker interface) |
-| `org.bukkit.event.EventPriority` | `event.EventPriority` | birebir |
-| `org.bukkit.event.EventHandler` | `event.EventHandler` | birebir |
-| `org.bukkit.event.Cancellable` | `event.Cancellable` | birebir |
-| `org.bukkit.event.HandlerList` | `event.HandlerList` | birebir |
-| `org.bukkit.plugin.RegisteredListener` | `plugin.RegisteredListener` | birebir (`getPlugin()` dahil) |
-| `org.bukkit.plugin.TimedRegisteredListener` | `plugin.TimedRegisteredListener` | birebir |
-| `org.bukkit.plugin.EventExecutor` | `plugin.EventExecutor` | birebir |
-| `org.bukkit.plugin.EventException` | `event.EventException` | birebir |
-| `org.bukkit.plugin.PluginManager` | `plugin.PluginManager` | **kismi** — sadece event ile ilgili 4 metot |
-| `org.bukkit.plugin.SimplePluginManager` | `plugin.SimplePluginManager` | **kismi** — event dispatch hatti birebir, permission/plugin-loading yok |
-| `org.bukkit.plugin.Plugin` | `plugin.Plugin` | **kismi** — sadece lifecycle + kimlik (7 metot); `getServer`/`getConfig`/dunya uretimi/komut sistemi yok (bkz. `Plugin.java` basindaki yorum) |
-| `org.bukkit.plugin.PluginBase` | `plugin.PluginBase` | birebir (`equals`/`hashCode` isim-bazli) |
-| `org.bukkit.plugin.java.JavaPlugin` | `plugin.java.JavaPlugin` | **kismi** — `isEnabled`/`onEnable`/`onDisable`/`onLoad`/`setEnabled` (otomatik onEnable/onDisable tetikleme) ve `isNaggable`/`setNaggable` birebir; `PluginClassLoader`/`Server`/`FileConfiguration`/`PluginDescriptionFile` yok |
-| `org.bukkit.plugin.java.JavaPluginLoader` | `plugin.java.JavaPluginLoader` | **kismi** — `createRegisteredListeners` + `enablePlugin`/`disablePlugin` (paket-ici `setEnabled` cagrisi) birebir; jar/classloading/`PluginEnableEvent` yok |
-| `org.bukkit.plugin.IllegalPluginAccessException` | `plugin.IllegalPluginAccessException` | birebir |
+Kaynak: `spigot-api-26.2-R0.1-SNAPSHOT.jar` (JADX). Guava (`Preconditions`, `ImmutableList`) gercek
+spigot-api'deki gibi `api` bagimliligi.
+
+| Gercek sinif (`org.bukkit.`...) | Durum |
+|---|---|
+| `event.Event`, `event.Listener`, `event.EventPriority`, `event.EventHandler`, `event.Cancellable`, `event.EventException` | birebir |
+| `event.HandlerList` | birebir |
+| `event.player.PlayerEvent`, `event.player.PlayerJoinEvent`, `event.player.AsyncPlayerChatEvent` | birebir |
+| `event.server.ServerEvent`, `event.server.PluginEvent`, `event.server.PluginEnableEvent`, `event.server.PluginDisableEvent` | birebir |
+| `plugin.RegisteredListener`, `plugin.TimedRegisteredListener`, `plugin.EventExecutor` | birebir |
+| `plugin.AuthorNagException`, `plugin.IllegalPluginAccessException`, `plugin.InvalidPluginException` | birebir |
+| `plugin.PluginBase`, `plugin.PluginLogger` | birebir |
+| `plugin.SimplePluginManager` | **kismi**: event dispatch hatti + plugin yasam dongusu (`registerInterface`, `loadPlugin`, `enablePlugin` -> `HandlerList.bakeAll()`, `disablePlugin` -> `HandlerList.unregisterAll(plugin)`, `fireEvent`'teki `AuthorNagException` dali) birebir; komut/scheduler/services/messenger/chunk-ticket adimlari, `loadPlugins` + dependency graph ve permission sistemi yok |
+| `plugin.PluginManager` | **kismi**: 30 metottan 16'si (`loadPlugins` x2 ve 13 permission metodu yok) |
+| `plugin.Plugin` | **kismi**: 20 metottan 11'i (config, world generation, `TabExecutor` yok) |
+| `plugin.PluginLoader` | **kismi**: `loadPlugin(File)` yerine `loadPlugin(PluginDescriptionFile)`, `getPluginDescription(File)` yok |
+| `plugin.PluginDescriptionFile` | **kismi**: programatik `(name, version, main)` kurucusu + name/version/main/authors/prefix/provides; plugin.yml (SnakeYAML) parse'i yok |
+| `plugin.java.JavaPluginLoader` | **kismi**: `createRegisteredListeners`, `enablePlugin`/`disablePlugin` (`PluginEnableEvent`/`PluginDisableEvent` sirasi dahil) birebir; `loadPlugin` PluginClassLoader kurucusunun adimlarini (main sinif -> no-arg kurucu -> `init`) ayni hata mesajlariyla yapiyor; jar/classloading, deprecated-event uyarisi, `CustomTimingsHandler` yok |
+| `plugin.java.JavaPlugin` | **kismi**: lifecycle (`setEnabled` -> `onEnable`/`onDisable`), `init`, `getServer`/`getPluginLoader`/`getDescription`/`getLogger`, naggable birebir; file/config/komut/classloader kismi yok, no-arg kurucu `PluginClassLoader` kontrolu yapmiyor |
+| `Server` | **kismi**: `getLogger`, `getPluginManager`, `isPrimaryThread` (130+ metottan 3'u) |
+| `entity.Player` | **kismi**: sadece `getName` |
+
+Sunucu tarafi (`CraftServer`, `CraftPlayer`) bu modulde yok; `spigot-plugin-impl` icindeki
+`DemoServer`/`DemoPlayer` onlarin yerini tutuyor.
 
 ## CLI demo
 
@@ -37,15 +47,17 @@ Demo `spigot-plugin-impl` modulunde; bu modul `spigot-event-dispatcher`'a, gerce
 spigot-api'ye bagimli olmasi gibi bagimli. Proje kok dizininden:
 
 ```
-./gradlew :spigot-event-dispatcher:compileJava :spigot-plugin-impl:compileJava
-java -cp spigot-event-dispatcher/build/classes/java/main:spigot-plugin-impl/build/classes/java/main \
-     me.erano.com.bukkit.example.Main
+./gradlew -q :spigot-plugin-impl:run
 ```
 
-`Main` sunucuyu temsil eder: `ExamplePlugin`'i enable eder ve su adimlari calistirir:
+`Main` sunucuyu temsil eder (`DemoServer` = `CraftServer` karsiligi) ve su adimlari calistirir:
 
-1. Sync event, main thread'de, `EventPriority` sirasiyla (`LOWEST` -> `NORMAL` -> `MONITOR`).
-2. Async event'i main thread'den tetikleme denemesi -> `IllegalStateException`.
-3. Async event'i ayri bir thread'den tetikleme + `Cancellable`/`ignoreCancelled`.
-4. Concurrency stres testi: concurrent `register`/`unregister` altinda async dispatch.
-5. Plugin'i devre disi birakma.
+0. `ExamplePlugin`'i `PluginDescriptionFile` ile yukler (`onLoad`) ve enable eder:
+   `SimplePluginManager.enablePlugin` -> `JavaPluginLoader.enablePlugin` -> `setEnabled(true)` ->
+   `onEnable()` (listener kaydi) -> `PluginEnableEvent`.
+1. Sync event (`PlayerJoinEvent`), main thread'de, `EventPriority` sirasiyla (`LOWEST` -> `NORMAL` -> `MONITOR`).
+2. Async event'i (`AsyncPlayerChatEvent`) main thread'den tetikleme denemesi -> `IllegalStateException`.
+3. Async event'i ayri bir thread'den tetikleme + `Cancellable`/`ignoreCancelled` + `setFormat`.
+4. Concurrency stres testi: concurrent `register`/`unregister` altinda async dispatch
+   (`AsyncPingEvent` plugin'in kendi custom event'i).
+5. Plugin'i devre disi birakma: `PluginDisableEvent` -> `onDisable()` -> `HandlerList.unregisterAll(plugin)`.

@@ -7,7 +7,6 @@ import me.erano.com.bukkit.event.Listener;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-/* JADX INFO: loaded from: spigot-26.2.jar:META-INF/libraries/spigot-api-26.2-R0.1-SNAPSHOT.jar:org/bukkit/plugin/TimedRegisteredListener.class */
 public class TimedRegisteredListener extends RegisteredListener {
     private int count;
     private long totalTime;

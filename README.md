@@ -62,18 +62,47 @@ Given that there are no longer obfuscated names to translate from, the purpose o
 // Searge -> Forge
 ```
 
-## JADX JAR Paths for Spigot (OBC + NMS included) 
+## Spigot Jars
+BuildTools ile `spigot-26.2` build edildikten sonra local `.m2` repository'sine kurulan jar'lar
+(JADX projesine eklenenler):
+
 ```
-After building the desired Spigot version with BuildTools, you can find the jar file containing the
-patched, Mojang-mapped (deobfuscated) NMS and OBC (CraftBukkit) sources in your local .m2 repository
-
-- Spigot Server Bundler: ~/<optional-folder>/Buildtools/spigot-26.2.jar
-// Includes Bukkit Source code
-
-- Spigot Deobfuscated / Mojang-mapped Src: ~/.m2/repository/org/spigotmc/spigot/26.2-R0.1-SNAPSHOT/
-// It only includes NMS+OBC source code, with readable Mojang nameplates. There are no third-party dependencies; it's intended for use in an IDE when developing plugins.
-
-~ means /home/<user>
+~/.m2/repository/org/spigotmc/
+spigot-api/26.2-R0.1-SNAPSHOT/spigot-api-26.2-R0.1-SNAPSHOT.jar
+spigot/26.2-R0.1-SNAPSHOT/spigot-26.2-R0.1-SNAPSHOT.jar
 ```
 
-## MDK For Forge
+- `spigot-api-...jar`: Bukkit API (`org.bukkit.*`). Event sistemi (`HandlerList`, `SimplePluginManager`,
+  `JavaPluginLoader`...) tamamen burada; `spigot-event-dispatcher` bu jar'dan uretildi.
+- `spigot-...jar`: Mojang-mapped NMS (`net.minecraft.*`) + OBC (`org.bukkit.craftbukkit.*`). API'yi
+  implemente eden ve event'leri fiilen tetikleyen sunucu tarafi (`CraftServer`,
+  `ServerGamePacketListenerImpl`...). 3rd-party bagimlilik icermez.
+
+`~/<optional-folder>/Buildtools/spigot-26.2.jar` (bundler) sunucuyu calistirmak icindir: kendi
+icinde sadece bootstrap `Main` var, yukaridaki iki jar'i (ve Guava/Netty gibi bagimliliklari)
+`META-INF/libraries/` ve `META-INF/versions/` altinda ic ice jar olarak tasir. JADX ic ice jar'lari
+da acar, ama ayni siniflari iki kez yukler ("Classes with same name are omitted"); bu yuzden
+yukaridaki iki jar yeterli.
+
+## Forge Jars
+`forge-26.1.2-64.0.8-mdk` kurulumunda ForgeGradle'in indirdigi jar'lar
+(MDK'daki `annotationProcessor 'net.minecraftforge:eventbus-validator:7.0.1'` surumu dogruluyor):
+
+```
+~/.gradle/caches/minecraftforge/forgegradle/mavenizer/caches/maven/forge/net/minecraftforge/
+eventbus/7.0.1/eventbus-7.0.1.jar
+javafmllanguage/26.1.2-64.0.8/javafmllanguage-26.1.2-64.0.8.jar
+fmlcore/26.1.2-64.0.8/fmlcore-26.1.2-64.0.8.jar
+fmlloader/26.1.2-64.0.8/fmlloader-26.1.2-64.0.8.jar
+forge/26.1.2-64.0.8/forge-26.1.2-64.0.8-universal.jar
+```
+## Fabric Jars
+`~/MinecraftWorkspace/fabric/template-mod-26.1.2` sablonunun build'inde Gradle'in indirdigi jar'lar
+(`~/.gradle/caches/modules-2/files-2.1/` altinda):
+
+```
+net.fabricmc/fabric-loader/0.19.5/fabric-loader-0.19.5.jar
+net.fabricmc.fabric-api/fabric-api-base/2.0.3+ece063234c/fabric-api-base-2.0.3+ece063234c.jar
+net.fabricmc.fabric-api/fabric-lifecycle-events-v1/4.1.1+df84eb3d4c/fabric-lifecycle-events-v1-4.1.1+df84eb3d4c.jar
+net.fabricmc.fabric-api/fabric-message-api-v1/7.0.5+dae8ce3e4c/fabric-message-api-v1-7.0.5+dae8ce3e4c.jar
+```

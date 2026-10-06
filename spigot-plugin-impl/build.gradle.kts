@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    id("application")
 }
 
 group = "me.erano.com.bukkit.example"
@@ -11,6 +12,10 @@ repositories {
 
 dependencies {
     implementation(project(":spigot-event-dispatcher"))
+}
+
+application {
+    mainClass.set("me.erano.com.bukkit.example.Main")
 }
 
 tasks.test {

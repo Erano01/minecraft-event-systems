@@ -1,0 +1,402 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2840 1755" width="2840" height="1755" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpiOWRkODA3Yy1lODgwLTQxYjctYTdhMC1iOTc0MWE2MjA4NjMAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaE3rURmrJyxUvDL6aWNxQawAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo5MWYzZDIyZi1hNTEzLTQ3YTEtYTQzZS0yY2JmZjIxNjVkODVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoAPUeR8PBK24T3XNvSNBy6wAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggbH4+UZnMns/DBggqkC1FdvTDxNvssScO6P4W4NoT17OkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaIPP0QfhQBm0LABp4wLCmYsAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCCVQ1tBn136sK3liWDGIYED9kwkWyIMeUUIILtwD8+1iWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiaZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmI5ZGQ4MDdjLWU4ODAtNDFiNy1hN2EwLWI5NzQxYTYyMDg2My9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmM5NjE1YjNhLWViNDctNDA1Ni1iMDVlLWFlMGYwN2YwZmM4ZnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBsfj5Rmcyez8MGCCqQLUV29MPE2+yxJw7o/hbg2hPXs6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggPcYVzJdbvT9MnfSTanTbn5jONXgZAGztKFWt5+nCICCiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg8ZAUimsYi2kIYSy7flsjTfsMtLSJ9rDyWnx1qPIpAfx0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQM6Rthd51nrRwPu2U0fV38xcoe6jpe+RfEO71bYG4mwwefsJrR+3a94q4vKPvyeufhiUo3Tf8DDha7AulCKrMp8=</c2pa:manifest></metadata>
+<defs>
+<style>
+text{font-family:'Times New Roman',Times,'Liberation Serif',serif;fill:#000}
+.t{font-size:26px;font-weight:bold}
+.n{font-size:15px;font-weight:bold}
+.s{font-size:12px}
+.m{font-size:12.5px}
+.hb{font-weight:bold}
+.i{font-style:italic}
+.u{text-decoration:underline}
+.box{fill:#fff;stroke:#000;stroke-width:1.2}
+.ln{stroke:#000;stroke-width:1.1;fill:none}
+.dash{stroke-dasharray:6 4}
+.note{fill:#fff;stroke:#000;stroke-width:1}
+.nt{font-size:12px;font-style:italic}
+.lbl{font-size:11.5px}
+.code{font-family:'Courier New',Courier,'Liberation Mono',monospace;font-size:12px}
+</style>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#000" stroke-width="1.1"/></marker>
+<marker id="tri" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L15,8 L1,15 z" fill="#fff" stroke="#000" stroke-width="1.1"/></marker>
+</defs>
+<rect width="2840" height="1755" fill="#fff"/>
+<text x="1420.0" y="44" text-anchor="middle" class="t">Forge EventBus 7 — GoF Observer Mapping (Forge 26.1.2)</text>
+<line x1="1000.0" y1="56" x2="1840.0" y2="56" stroke="#000" stroke-width="0.8"/>
+<rect class="box" x="1160" y="110" width="460" height="187"/>
+<text x="1390.0" y="129" text-anchor="middle" class="s">«Subject»</text>
+<text x="1390.0" y="144" text-anchor="middle" class="s">«interface»</text>
+<text x="1390.0" y="162" text-anchor="middle" class="n">EventBus&lt;T extends Event&gt;</text>
+<text x="1390.0" y="176" text-anchor="middle" class="s i">{event TİPİ başına bir tane}</text>
+<line class="ln" x1="1160" y1="183" x2="1620" y2="183"/>
+<line class="ln" x1="1160" y1="193" x2="1620" y2="193"/>
+<text x="1170" y="208" class="m">+ addListener(listener: Consumer&lt;T&gt;) : EventListener</text>
+<text x="1170" y="224" class="m">+ addListener(priority: byte, listener: Consumer&lt;T&gt;) : EventListener</text>
+<text x="1170" y="240" class="m">+ removeListener(l: EventListener) : void</text>
+<text x="1170" y="256" class="m">+ post(event: T) : boolean</text>
+<text x="1170" y="272" class="m">+ fire(event: T) : T</text>
+<text x="1170" y="288" class="m">+ hasListeners() : boolean</text>
+<rect class="box" x="660" y="110" width="460" height="124"/>
+<text x="890.0" y="129" text-anchor="middle" class="s">«Subject»</text>
+<text x="890.0" y="144" text-anchor="middle" class="s">«interface»</text>
+<text x="890.0" y="162" text-anchor="middle" class="n">CancellableEventBus&lt;T extends Event &amp; Cancellable&gt;</text>
+<line class="ln" x1="660" y1="168" x2="1120" y2="168"/>
+<line class="ln" x1="660" y1="178" x2="1120" y2="178"/>
+<text x="670" y="193" class="m">+ addListener(priority: byte, listener: Predicate&lt;T&gt;)</text>
+<text x="694" y="209" class="m">: EventListener</text>
+<text x="670" y="225" class="m">+ addListener(monitor: ObjBooleanBiConsumer&lt;T&gt;) : EventListener</text>
+<rect class="box" x="1160" y="367" width="460" height="267"/>
+<text x="1390.0" y="386" text-anchor="middle" class="s">«Subject — ortak impl.»</text>
+<text x="1390.0" y="401" text-anchor="middle" class="s">«interface»</text>
+<text x="1390.0" y="419" text-anchor="middle" class="n">AbstractEventBusImpl&lt;T, I&gt;</text>
+<text x="1390.0" y="433" text-anchor="middle" class="s i">{ortak kayıt mantığı — default metotlar}</text>
+<line class="ln" x1="1160" y1="440" x2="1620" y2="440"/>
+<line class="ln" x1="1160" y1="450" x2="1620" y2="450"/>
+<text x="1170" y="465" class="m">+ backingList() : ArrayList&lt;EventListener&gt;</text>
+<text x="1170" y="481" class="m">+ monitorBackingList() : ArrayList&lt;EventListener&gt;</text>
+<text x="1170" y="497" class="m">+ children() : List&lt;AbstractEventBusImpl&gt;</text>
+<text x="1194" y="513" class="m">// InheritableEvent alt tiplerinin bus'ları</text>
+<text x="1170" y="529" class="m">+ addListener(l: EventListener) : void</text>
+<text x="1194" y="545" class="m">{synchronized(backingList)} → invalidateInvoker()</text>
+<text x="1170" y="561" class="m">+ removeListener(l: EventListener) : void</text>
+<text x="1194" y="577" class="m">{synchronized(backingList)} → invalidateInvoker()</text>
+<text x="1170" y="593" class="m">+ getInvoker() : I</text>
+<text x="1194" y="609" class="m">// kilitsiz okuma; null ise buildInvoker()</text>
+<text x="1170" y="625" class="m">+ buildInvoker() : I {synchronized(backingList)}</text>
+<rect class="box" x="660" y="367" width="460" height="152"/>
+<text x="890.0" y="386" text-anchor="middle" class="s">«ConcreteSubject»</text>
+<text x="890.0" y="401" text-anchor="middle" class="s">«record»</text>
+<text x="890.0" y="419" text-anchor="middle" class="n">CancellableEventBusImpl&lt;T&gt;</text>
+<text x="890.0" y="433" text-anchor="middle" class="s i">{implements CancellableEventBus&lt;T&gt;,</text>
+<text x="890.0" y="448" text-anchor="middle" class="s i">AbstractEventBusImpl&lt;T, Predicate&lt;T&gt;&gt;}</text>
+<line class="ln" x1="660" y1="455" x2="1120" y2="455"/>
+<text x="670" y="470" class="m i">(EventBusImpl ile aynı alanlar)</text>
+<line class="ln" x1="660" y1="479" x2="1120" y2="479"/>
+<text x="670" y="494" class="m">+ post(event: T) : boolean</text>
+<text x="694" y="510" class="m">// return getInvoker().test(event)</text>
+<rect class="box" x="660" y="589" width="460" height="217"/>
+<text x="890.0" y="608" text-anchor="middle" class="s">«ConcreteSubject»</text>
+<text x="890.0" y="623" text-anchor="middle" class="s">«record»</text>
+<text x="890.0" y="641" text-anchor="middle" class="n">EventBusImpl&lt;T&gt;</text>
+<text x="890.0" y="655" text-anchor="middle" class="s i">{implements AbstractEventBusImpl&lt;T, Consumer&lt;T&gt;&gt;}</text>
+<line class="ln" x1="660" y1="662" x2="1120" y2="662"/>
+<text x="670" y="677" class="m">- invokerCallSite : VolatileCallSite</text>
+<text x="694" y="693" class="m">// derlenmiş invoker, kilitsiz okunur</text>
+<text x="670" y="709" class="m">- backingList : ArrayList&lt;EventListener&gt;</text>
+<text x="670" y="725" class="m">- monitorBackingList : ArrayList&lt;EventListener&gt;</text>
+<text x="670" y="741" class="m">- alreadyInvalidated : AtomicBoolean</text>
+<text x="670" y="757" class="m">- shutdownFlag : AtomicBoolean</text>
+<line class="ln" x1="660" y1="766" x2="1120" y2="766"/>
+<text x="670" y="781" class="m">+ post(event: T) : boolean</text>
+<text x="694" y="797" class="m">// getInvoker().accept(event); return false</text>
+<rect class="box" x="660" y="876" width="460" height="155"/>
+<text x="890.0" y="895" text-anchor="middle" class="s">«notify() derleyici»</text>
+<text x="890.0" y="910" text-anchor="middle" class="s">«utility»</text>
+<text x="890.0" y="928" text-anchor="middle" class="n">InvokerFactory</text>
+<text x="890.0" y="942" text-anchor="middle" class="s i">{final — listener listesini TEK fonksiyona derler}</text>
+<line class="ln" x1="660" y1="949" x2="1120" y2="949"/>
+<line class="ln" x1="660" y1="959" x2="1120" y2="959"/>
+<text x="670" y="974" class="m u">+ createMonitoringInvoker(listeners, monitors)</text>
+<text x="694" y="990" class="m">: Consumer&lt;T&gt; {static}</text>
+<text x="670" y="1006" class="m u">+ createCancellableMonitoringInvoker(listeners, monitors)</text>
+<text x="694" y="1022" class="m">: Predicate&lt;T&gt; {static}</text>
+<rect class="box" x="1160" y="714" width="460" height="139"/>
+<text x="1390.0" y="733" text-anchor="middle" class="s">«Observer kaydı»</text>
+<text x="1390.0" y="748" text-anchor="middle" class="s">«interface»</text>
+<text x="1390.0" y="766" text-anchor="middle" class="n">EventListener</text>
+<text x="1390.0" y="780" text-anchor="middle" class="s i">{kayıt tutamacı (handle)}</text>
+<line class="ln" x1="1160" y1="787" x2="1620" y2="787"/>
+<line class="ln" x1="1160" y1="797" x2="1620" y2="797"/>
+<text x="1170" y="812" class="m">+ eventType() : Class&lt;? extends Event&gt;</text>
+<text x="1170" y="828" class="m">+ priority() : byte</text>
+<text x="1170" y="844" class="m">+ alwaysCancelling() : boolean</text>
+<rect class="box" x="1160" y="913" width="460" height="250"/>
+<text x="1390.0" y="932" text-anchor="middle" class="s">«interface»</text>
+<text x="1390.0" y="950" text-anchor="middle" class="n">EventListenerImpl</text>
+<text x="1390.0" y="964" text-anchor="middle" class="s i">{iç içe record'lar — hepsi immutable}</text>
+<line class="ln" x1="1160" y1="971" x2="1620" y2="971"/>
+<text x="1170" y="986" class="m hb">«record» ConsumerListener</text>
+<text x="1194" y="1002" class="m">(eventType, priority, consumer: Consumer&lt;T&gt;)</text>
+<line class="ln" x1="1160" y1="1011" x2="1620" y2="1011"/>
+<text x="1170" y="1026" class="m hb">«record» PredicateListener</text>
+<text x="1194" y="1042" class="m">(eventType, priority, predicate: Predicate&lt;T&gt;)</text>
+<line class="ln" x1="1160" y1="1051" x2="1620" y2="1051"/>
+<text x="1170" y="1066" class="m hb">«record» MonitoringListener</text>
+<text x="1194" y="1082" class="m">(eventType, booleanBiConsumer:</text>
+<text x="1194" y="1098" class="m">ObjBooleanBiConsumer&lt;T&gt;)   priority() = MONITOR</text>
+<line class="ln" x1="1160" y1="1107" x2="1620" y2="1107"/>
+<text x="1170" y="1122" class="m hb">«record» WrappedConsumerListener</text>
+<text x="1194" y="1138" class="m">(eventType, priority, alwaysCancelling,</text>
+<text x="1194" y="1154" class="m">consumer, predicate)</text>
+<rect class="box" x="270" y="110" width="320" height="108"/>
+<text x="430.0" y="129" text-anchor="middle" class="s">«push-model payload»</text>
+<text x="430.0" y="144" text-anchor="middle" class="s">«interface»</text>
+<text x="430.0" y="162" text-anchor="middle" class="n">Event</text>
+<text x="430.0" y="176" text-anchor="middle" class="s i">{paket: eventbus.internal}</text>
+<text x="430.0" y="191" text-anchor="middle" class="s i">{tüm event'lerin kök tipi}</text>
+<line class="ln" x1="270" y1="198" x2="590" y2="198"/>
+<line class="ln" x1="270" y1="208" x2="590" y2="208"/>
+<rect class="box" x="230" y="268" width="160" height="78"/>
+<text x="310.0" y="287" text-anchor="middle" class="s">«push-model payload»</text>
+<text x="310.0" y="302" text-anchor="middle" class="s">«abstract»</text>
+<text x="310.0" y="320" text-anchor="middle" class="n i">MutableEvent</text>
+<line class="ln" x1="230" y1="326" x2="390" y2="326"/>
+<line class="ln" x1="230" y1="336" x2="390" y2="336"/>
+<rect class="box" x="410" y="268" width="190" height="108"/>
+<text x="505.0" y="287" text-anchor="middle" class="s">«push-model payload»</text>
+<text x="505.0" y="302" text-anchor="middle" class="s">«interface»</text>
+<text x="505.0" y="320" text-anchor="middle" class="n">RecordEvent</text>
+<text x="505.0" y="334" text-anchor="middle" class="s i">{immutable event'ler</text>
+<text x="505.0" y="349" text-anchor="middle" class="s i">record olarak yazılır}</text>
+<line class="ln" x1="410" y1="356" x2="600" y2="356"/>
+<line class="ln" x1="410" y1="366" x2="600" y2="366"/>
+<rect class="box" x="40" y="268" width="170" height="78"/>
+<text x="125.0" y="287" text-anchor="middle" class="s">«Marker»</text>
+<text x="125.0" y="302" text-anchor="middle" class="s">«interface»</text>
+<text x="125.0" y="320" text-anchor="middle" class="n">Cancellable</text>
+<line class="ln" x1="40" y1="326" x2="210" y2="326"/>
+<line class="ln" x1="40" y1="336" x2="210" y2="336"/>
+<rect class="box" x="40" y="431" width="400" height="170"/>
+<text x="240.0" y="450" text-anchor="middle" class="s">«push-model payload»</text>
+<text x="240.0" y="468" text-anchor="middle" class="n">ServerChatEvent</text>
+<text x="240.0" y="482" text-anchor="middle" class="s i">{final}</text>
+<line class="ln" x1="40" y1="489" x2="440" y2="489"/>
+<text x="50" y="504" class="m u">+ BUS : CancellableEventBus&lt;ServerChatEvent&gt; {static, final}</text>
+<text x="50" y="520" class="m">- username : String {final}</text>
+<text x="50" y="536" class="m">- rawText : String {final}</text>
+<text x="50" y="552" class="m">- message : String</text>
+<line class="ln" x1="40" y1="561" x2="440" y2="561"/>
+<text x="50" y="576" class="m">+ getMessage() : String</text>
+<text x="50" y="592" class="m">+ setMessage(m: String) : void</text>
+<rect class="box" x="200" y="651" width="400" height="123"/>
+<text x="400.0" y="670" text-anchor="middle" class="s">«push-model payload»</text>
+<text x="400.0" y="685" text-anchor="middle" class="s">«record»</text>
+<text x="400.0" y="703" text-anchor="middle" class="n">PlayerEvent.PlayerLoggedInEvent</text>
+<text x="400.0" y="717" text-anchor="middle" class="s i">{implements RecordEvent, PlayerEvent}</text>
+<line class="ln" x1="200" y1="724" x2="600" y2="724"/>
+<text x="210" y="739" class="m">- getEntity : String {final}</text>
+<text x="210" y="755" class="m u">+ BUS : EventBus&lt;PlayerLoggedInEvent&gt; {static, final}</text>
+<line class="ln" x1="200" y1="764" x2="600" y2="764"/>
+<rect class="box" x="40" y="844" width="220" height="78"/>
+<text x="150.0" y="863" text-anchor="middle" class="s">«Marker»</text>
+<text x="150.0" y="878" text-anchor="middle" class="s">«interface»</text>
+<text x="150.0" y="896" text-anchor="middle" class="n">EventCharacteristic</text>
+<line class="ln" x1="40" y1="902" x2="260" y2="902"/>
+<line class="ln" x1="40" y1="912" x2="260" y2="912"/>
+<rect class="box" x="1700" y="110" width="500" height="77"/>
+<text x="1950.0" y="129" text-anchor="middle" class="s">«erişim noktası»</text>
+<text x="1950.0" y="147" text-anchor="middle" class="n">MinecraftForge</text>
+<line class="ln" x1="1700" y1="153" x2="2200" y2="153"/>
+<text x="1710" y="168" class="m u">+ EVENT_BUS : BusGroup = BusGroup.DEFAULT {static, final}</text>
+<line class="ln" x1="1700" y1="177" x2="2200" y2="177"/>
+<rect class="box" x="1700" y="257" width="500" height="169"/>
+<text x="1950.0" y="276" text-anchor="middle" class="s">«Subject registry»</text>
+<text x="1950.0" y="291" text-anchor="middle" class="s">«interface»</text>
+<text x="1950.0" y="309" text-anchor="middle" class="n">BusGroup</text>
+<text x="1950.0" y="323" text-anchor="middle" class="s i">{event tipi → EventBus haritası (game bus / mod bus)}</text>
+<line class="ln" x1="1700" y1="330" x2="2200" y2="330"/>
+<text x="1710" y="345" class="m u">+ DEFAULT : BusGroup {static}</text>
+<line class="ln" x1="1700" y1="354" x2="2200" y2="354"/>
+<text x="1710" y="369" class="m">+ register(lookup: MethodHandles.Lookup, listener: Object)</text>
+<text x="1734" y="385" class="m">: Collection&lt;EventListener&gt;</text>
+<text x="1710" y="401" class="m">+ unregister(listeners: Collection&lt;EventListener&gt;) : void</text>
+<text x="1710" y="417" class="m">+ startup() / shutdown() / dispose() : void</text>
+<rect class="box" x="1700" y="542" width="500" height="154"/>
+<text x="1950.0" y="561" text-anchor="middle" class="s">«Subject registry»</text>
+<text x="1950.0" y="576" text-anchor="middle" class="s">«record»</text>
+<text x="1950.0" y="594" text-anchor="middle" class="n">BusGroupImpl</text>
+<line class="ln" x1="1700" y1="600" x2="2200" y2="600"/>
+<text x="1710" y="615" class="m">- name : String</text>
+<text x="1710" y="631" class="m">- eventBuses : ConcurrentHashMap&lt;Class&lt;? extends Event&gt;, EventBus&lt;?&gt;&gt;</text>
+<text x="1710" y="647" class="m u">- BUS_GROUP_NAMES : Set&lt;String&gt; {static}</text>
+<line class="ln" x1="1700" y1="656" x2="2200" y2="656"/>
+<text x="1710" y="671" class="m">+ getOrCreateEventBus(type: Class&lt;T&gt;) : EventBus&lt;T&gt;</text>
+<text x="1734" y="687" class="m">// kilitsiz get, yarışta putIfAbsent</text>
+<rect class="box" x="1700" y="776" width="500" height="201"/>
+<text x="1950.0" y="795" text-anchor="middle" class="s">«update() karşılığı»</text>
+<text x="1950.0" y="810" text-anchor="middle" class="s">«utility»</text>
+<text x="1950.0" y="828" text-anchor="middle" class="n">EventListenerFactory</text>
+<text x="1950.0" y="842" text-anchor="middle" class="s i">{final}</text>
+<line class="ln" x1="1700" y1="849" x2="2200" y2="849"/>
+<text x="1710" y="864" class="m u">- LMF_CACHE : Map&lt;Method, MethodHandle&gt; {static}</text>
+<text x="1734" y="880" class="m">// ConcurrentHashMap</text>
+<line class="ln" x1="1700" y1="889" x2="2200" y2="889"/>
+<text x="1710" y="904" class="m u">+ register(group: BusGroupImpl, lookup, listenerClass, instance)</text>
+<text x="1734" y="920" class="m">: Collection&lt;EventListener&gt; {static}</text>
+<text x="1710" y="936" class="m u">- createConsumer / createPredicate / createMonitor(...) {static}</text>
+<text x="1710" y="952" class="m">- makeFactory(...) : MethodHandle</text>
+<text x="1734" y="968" class="m">// LambdaMetafactory.metafactory(...)</text>
+<rect class="box" x="2260" y="190" width="500" height="236"/>
+<text x="2510.0" y="209" text-anchor="middle" class="s">«ConcreteObserver»</text>
+<text x="2510.0" y="227" text-anchor="middle" class="n">GameEventListeners</text>
+<text x="2510.0" y="241" text-anchor="middle" class="s i">{mod tarafı — HİÇBİR arayüzü implement etmez}</text>
+<line class="ln" x1="2260" y1="248" x2="2760" y2="248"/>
+<line class="ln" x1="2260" y1="258" x2="2760" y2="258"/>
+<text x="2270" y="273" class="s">@SubscribeEvent(priority = HIGH)</text>
+<text x="2270" y="289" class="m">+ onLoginHigh(e: PlayerLoggedInEvent) : void</text>
+<text x="2270" y="305" class="s">@SubscribeEvent(priority = MONITOR)</text>
+<text x="2270" y="321" class="m">+ onLoginMonitor(e: PlayerLoggedInEvent) : void</text>
+<text x="2270" y="337" class="s">@SubscribeEvent(priority = HIGH)</text>
+<text x="2270" y="353" class="m">+ filterSpam(e: ServerChatEvent) : boolean   // true = iptal</text>
+<text x="2270" y="369" class="s">@SubscribeEvent</text>
+<text x="2270" y="385" class="m">+ broadcast(e: ServerChatEvent) : void</text>
+<text x="2270" y="401" class="s">@SubscribeEvent(priority = MONITOR)</text>
+<text x="2270" y="417" class="m">+ logChat(e: ServerChatEvent, wasCancelled: boolean) : void</text>
+<rect class="box" x="2260" y="496" width="500" height="93"/>
+<text x="2510.0" y="515" text-anchor="middle" class="s">«annotation»</text>
+<text x="2510.0" y="533" text-anchor="middle" class="n">SubscribeEvent</text>
+<line class="ln" x1="2260" y1="539" x2="2760" y2="539"/>
+<line class="ln" x1="2260" y1="549" x2="2760" y2="549"/>
+<text x="2270" y="564" class="m">+ priority() : byte = NORMAL</text>
+<text x="2270" y="580" class="m">+ alwaysCancelling() : boolean = false</text>
+<rect class="box" x="2260" y="816" width="500" height="122"/>
+<text x="2510.0" y="835" text-anchor="middle" class="s">«Adapter»</text>
+<text x="2510.0" y="850" text-anchor="middle" class="s">«lambda — LambdaMetafactory ile üretilmiş»</text>
+<text x="2510.0" y="868" text-anchor="middle" class="n">GameEventListeners$$Lambda</text>
+<line class="ln" x1="2260" y1="874" x2="2760" y2="874"/>
+<text x="2270" y="889" class="m">- arg$1 : GameEventListeners   // bağlı (bound) alıcı</text>
+<line class="ln" x1="2260" y1="898" x2="2760" y2="898"/>
+<text x="2270" y="913" class="m">+ accept(t: T) : void   /   test(t: T) : boolean</text>
+<text x="2270" y="929" class="m">+ accept(t: T, wasCancelled: boolean) : void</text>
+<rect class="box" x="2260" y="1008" width="230" height="123"/>
+<text x="2375.0" y="1027" text-anchor="middle" class="s">«Observer»</text>
+<text x="2375.0" y="1042" text-anchor="middle" class="s">«functional interface»</text>
+<text x="2375.0" y="1060" text-anchor="middle" class="n">Consumer&lt;T&gt; / Predicate&lt;T&gt;</text>
+<text x="2375.0" y="1074" text-anchor="middle" class="s i">{java.util.function}</text>
+<line class="ln" x1="2260" y1="1081" x2="2490" y2="1081"/>
+<line class="ln" x1="2260" y1="1091" x2="2490" y2="1091"/>
+<text x="2270" y="1106" class="m">+ accept(t: T) : void</text>
+<text x="2270" y="1122" class="m">+ test(t: T) : boolean</text>
+<rect class="box" x="2520" y="1008" width="240" height="123"/>
+<text x="2640.0" y="1027" text-anchor="middle" class="s">«Observer»</text>
+<text x="2640.0" y="1042" text-anchor="middle" class="s">«functional interface»</text>
+<text x="2640.0" y="1060" text-anchor="middle" class="n">ObjBooleanBiConsumer&lt;T&gt;</text>
+<text x="2640.0" y="1074" text-anchor="middle" class="s i">{MONITOR observer'ı}</text>
+<line class="ln" x1="2520" y1="1081" x2="2760" y2="1081"/>
+<line class="ln" x1="2520" y1="1091" x2="2760" y2="1091"/>
+<text x="2530" y="1106" class="m">+ accept(t: T, wasCancelled: boolean)</text>
+<text x="2554" y="1122" class="m">: void</text>
+<rect class="box" x="2400" y="1253" width="360" height="172"/>
+<text x="2580.0" y="1272" text-anchor="middle" class="s">«sabitler»</text>
+<text x="2580.0" y="1290" text-anchor="middle" class="n">Priority</text>
+<text x="2580.0" y="1304" text-anchor="middle" class="s i">{final — enum DEĞİL, byte sabitleri}</text>
+<line class="ln" x1="2400" y1="1311" x2="2760" y2="1311"/>
+<text x="2410" y="1326" class="m u">+ HIGHEST : byte = 127 {static}</text>
+<text x="2410" y="1342" class="m u">+ HIGH : byte = 64 {static}</text>
+<text x="2410" y="1358" class="m u">+ NORMAL : byte = 0 {static}</text>
+<text x="2410" y="1374" class="m u">+ LOW : byte = -64 {static}</text>
+<text x="2410" y="1390" class="m u">+ LOWEST : byte = -127 {static}</text>
+<text x="2410" y="1406" class="m u">+ MONITOR : byte = -128 {static}</text>
+<line class="ln" x1="2400" y1="1415" x2="2760" y2="1415"/>
+<path class="ln dash" d="M310.0,268 L310.0,218" marker-end="url(#tri)"/>
+<path class="ln" d="M505,268 L505,218" marker-end="url(#tri)"/>
+<path class="ln dash" d="M125,431 L125,346" marker-end="url(#tri)"/>
+<path class="ln" d="M310.0,431 L310.0,346" marker-end="url(#tri)"/>
+<path class="ln dash" d="M560,651 L560,376" marker-end="url(#tri)"/>
+<path class="ln" d="M40,318 L22,318 L22,884 L40,884" marker-end="url(#tri)"/>
+<polygon points="440,471 452,477 464,471 452,465" fill="#000" stroke="#000" stroke-width="1.1"/>
+<path class="ln" d="M464,471 L554,471 A6,6 0 0 1 566,471 L660,471"/>
+<text x="474" y="465" text-anchor="start" class="lbl">{static BUS}</text>
+<text x="656" y="465" text-anchor="end" class="lbl">1</text>
+<text x="444" y="489" text-anchor="start" class="lbl">1 bus / event tipi</text>
+<polygon points="600,691 612,697 624,691 612,685" fill="#000" stroke="#000" stroke-width="1.1"/>
+<path class="ln" d="M624,691 L660,691"/>
+<text x="656" y="685" text-anchor="end" class="lbl">1</text>
+<text x="602" y="709" text-anchor="start" class="lbl">{static BUS}</text>
+<path class="ln" d="M1120,170 L1160,170" marker-end="url(#tri)"/>
+<path class="ln" d="M1280,367 L1280,297" marker-end="url(#tri)"/>
+<path class="ln dash" d="M890.0,367 L890.0,234" marker-end="url(#tri)"/>
+<path class="ln dash" d="M1120,427 L1160,427" marker-end="url(#tri)"/>
+<path class="ln dash" d="M1120,618 L1140,618 L1140,618 L1160,618" marker-end="url(#tri)"/>
+<path class="ln" d="M1220,634 L1220,666 L1360,666 L1360,634" marker-end="url(#open)"/>
+<text x="1290.0" y="682" text-anchor="middle" class="lbl">children 0..*</text>
+<polygon points="1520,634 1514,646 1520,658 1526,646" fill="#fff" stroke="#000" stroke-width="1.1"/>
+<path class="ln" d="M1520,658 L1520,714" marker-end="url(#open)"/>
+<text x="1528" y="678" text-anchor="start" class="lbl">observers</text>
+<text x="1528" y="708" text-anchor="start" class="lbl">0..*</text>
+<path class="ln" d="M1390.0,913 L1390.0,853" marker-end="url(#tri)"/>
+<path class="ln dash" d="M890.0,806 L890.0,876" marker-end="url(#open)"/>
+<text x="898.0" y="845.0" text-anchor="start" class="lbl">«uses» buildInvoker()</text>
+<path class="ln dash" d="M1120,499 L1140,499 L1140,612 A6,6 0 0 1 1140,624 L1140,916 L1120,916" marker-end="url(#open)"/>
+<text x="1132" y="737.5" text-anchor="middle" class="lbl" transform="rotate(-90 1132 737.5)">«uses» buildInvoker()</text>
+<path class="ln" d="M1950.0,187 L1950.0,257" marker-end="url(#open)"/>
+<text x="1958.0" y="209" text-anchor="start" class="lbl">EVENT_BUS</text>
+<text x="1958.0" y="251" text-anchor="start" class="lbl">1</text>
+<path class="ln dash" d="M2100,542 L2100,426" marker-end="url(#tri)"/>
+<polygon points="1700,582 1688,576 1676,582 1688,588" fill="#fff" stroke="#000" stroke-width="1.1"/>
+<path class="ln" d="M1676,582 L1620,582" marker-end="url(#open)"/>
+<text x="1624" y="598" text-anchor="start" class="lbl">0..*</text>
+<text x="1624" y="576" text-anchor="start" class="lbl">eventBuses</text>
+<path class="ln dash" d="M1700,806 L1650,806 L1650,588 A6,6 0 0 0 1650,576 L1650,230 L1620,230" marker-end="url(#open)"/>
+<text x="1662" y="406.0" text-anchor="middle" class="lbl" transform="rotate(90 1662 406.0)">«uses» addListener (EventBus / CancellableEventBus)</text>
+<path class="ln dash" d="M1870,696 L1870,776" marker-end="url(#open)"/>
+<text x="1862" y="740" text-anchor="end" class="lbl">«uses» register()</text>
+<path class="ln dash" d="M2030,776 L2030,696" marker-end="url(#open)"/>
+<text x="2038" y="740" text-anchor="start" class="lbl">«uses» getOrCreateEventBus</text>
+<path class="ln dash" d="M2510.0,426 L2510.0,496" marker-end="url(#open)"/>
+<text x="2518.0" y="466" text-anchor="start" class="lbl">«annotated with»  (her @SubscribeEvent metodu)</text>
+<path class="ln dash" d="M2200,796 L2226,796 L2226,536 L2260,536" marker-end="url(#open)"/>
+<text x="2218" y="666.0" text-anchor="middle" class="lbl" transform="rotate(-90 2218 666.0)">«reads via reflection» (sadece kayıt anında)</text>
+<path class="ln dash" d="M2200,856 L2260,856" marker-end="url(#open)"/>
+<text x="2204" y="850" text-anchor="start" class="lbl">«create»</text>
+<path class="ln dash" d="M2760,846 L2788,846 L2788,562 A6,6 0 0 0 2788,550 L2788,250 L2760,250" marker-end="url(#open)"/>
+<text x="2800" y="433.0" text-anchor="middle" class="lbl" transform="rotate(90 2800 433.0)">«invoke» doğrudan çağrı — reflection YOK</text>
+<path class="ln dash" d="M2375.0,1008 L2375.0,938" marker-end="url(#tri)"/>
+<path class="ln dash" d="M2640.0,1008 L2640.0,938" marker-end="url(#tri)"/>
+<path class="ln" d="M1620,1048 L2260,1048" marker-end="url(#open)"/>
+<text x="2254" y="1042" text-anchor="end" class="lbl">1</text>
+<path class="ln" d="M1620,1118 L2232,1118 L2232,1155 L2680.0,1155 L2680.0,1131" marker-end="url(#open)"/>
+<text x="2688.0" y="1147" text-anchor="start" class="lbl">1</text>
+<text x="1630" y="1042" text-anchor="start" class="lbl">consumer / predicate</text>
+<text x="1630" y="1112" text-anchor="start" class="lbl">booleanBiConsumer</text>
+<path class="ln dash" d="M2760,556 L2816,556 L2816,1293 L2760,1293" marker-end="url(#open)"/>
+<text x="2808" y="1285" text-anchor="end" class="lbl">«uses»</text>
+<polygon class="note" points="40,72 243,72 255,84 255,148 40,148"/>
+<polyline class="ln" points="243,72 243,84 255,84"/>
+<text x="50" y="92" class="nt">Marker. setCancelled() /</text>
+<text x="50" y="108" class="nt">isCancelled() yok — iptal,</text>
+<text x="50" y="124" class="nt">listener'ın true dönmesiyle</text>
+<text x="50" y="140" class="nt">ifade edilir.</text>
+<path class="ln dash" d="M120,148 L120,268"/>
+<polygon class="note" points="2260,72 2748,72 2760,84 2760,116 2260,116"/>
+<polyline class="ln" points="2748,72 2748,84 2760,84"/>
+<text x="2270" y="92" class="nt">Dönüş / parametre şekli observer türünü belirler:</text>
+<text x="2270" y="108" class="nt">void → Consumer,  boolean → Predicate,  (event, boolean) → ObjBooleanBiConsumer.</text>
+<path class="ln dash" d="M2510.0,116 L2510.0,190"/>
+<polygon class="note" points="1700,452 2018,452 2030,464 2030,512 1700,512"/>
+<polyline class="ln" points="2018,452 2018,464 2030,464"/>
+<text x="1710" y="472" class="nt">Sadece kayıtta event tipini bus'a yönlendirir;</text>
+<text x="1710" y="488" class="nt">post() BusGroup'a uğramaz, doğrudan</text>
+<text x="1710" y="504" class="nt">EventType.BUS.post()</text>
+<path class="ln dash" d="M1850,512 L1850,542"/>
+<polygon class="note" points="2420,619 2738,619 2750,631 2750,663 2420,663"/>
+<polyline class="ln" points="2738,619 2738,631 2750,631"/>
+<text x="2430" y="639" class="nt">Bound method reference (listener::onLoginHigh) —</text>
+<text x="2430" y="655" class="nt">javac'ın lambda için ürettiğinin aynısı.</text>
+<path class="ln dash" d="M2580,663 L2580,816"/>
+<polygon class="note" points="660,1061 1108,1061 1120,1073 1120,1121 660,1121"/>
+<polyline class="ln" points="1108,1061 1108,1073 1120,1073"/>
+<text x="670" y="1081" class="nt">0–4 listener için açık yazılmış lambda'lar (andThen / ||),</text>
+<text x="670" y="1097" class="nt">fazlası için dizi döngüsü. Predicate zinciri kısa devre:</text>
+<text x="670" y="1113" class="nt">ilk true durdurur.</text>
+<path class="ln dash" d="M890.0,1061 L890.0,1031"/>
+<polygon class="note" points="1700,1253 2168,1253 2180,1265 2180,1297 1700,1297"/>
+<polyline class="ln" points="2168,1253 2168,1265 2180,1265"/>
+<text x="1710" y="1273" class="nt">Ara değerler serbest. MONITOR ayrı listede tutulur,</text>
+<text x="1710" y="1289" class="nt">en son ve iptal bilgisiyle çalışır.</text>
+<path class="ln dash" d="M2180,1283 L2400,1283"/>
+<rect x="40" y="1485" width="2760" height="148" fill="none" stroke="#000" stroke-width="1.1"/>
+<path d="M40,1485 L250,1485 L250,1497 L240,1507 L40,1507 z" fill="#fff" stroke="#000" stroke-width="1.1"/>
+<text x="48" y="1501" class="s" font-weight="bold">sd  Kayıt / İlk post / Dispatch</text>
+<text x="60" y="1541" class="m" font-weight="bold">Kayıt:</text>
+<text x="150" y="1541" class="code">EVENT_BUS.register(lookup, listener) → EventListenerFactory.register → (reflection: @SubscribeEvent) → LambdaMetafactory → Consumer/Predicate → BusGroupImpl.getOrCreateEventBus → AbstractEventBusImpl.addListener → backingList.add → invalidateInvoker()</text>
+<text x="60" y="1577" class="m" font-weight="bold">İlk post:</text>
+<text x="150" y="1577" class="code">BUS.post(e) → getInvoker() == null → buildInvoker() {synchronized} → sort(priority) → InvokerFactory.create...Invoker → VolatileCallSite.setTarget</text>
+<text x="60" y="1613" class="m" font-weight="bold">Dispatch:</text>
+<text x="150" y="1613" class="code">BUS.post(e) → getInvoker() (kilitsiz volatile okuma) → invoker.test(e) → Predicate.test → GameEventListeners.filterSpam (true → zincir durur) → ObjBooleanBiConsumer.accept(e, cancelled) → logChat (MONITOR, her zaman çalışır)</text>
+<polygon class="note" points="40,1657 2788,1657 2800,1669 2800,1725 40,1725"/>
+<polyline class="ln" points="2788,1657 2788,1669 2800,1669"/>
+<text x="1420.0" y="1679" text-anchor="middle" font-size="14" font-style="italic">update() yerine her @SubscribeEvent metodu kayıt anında LambdaMetafactory ile gerçek bir Consumer/Predicate sınıfına dönüştürülür.</text>
+<text x="1420.0" y="1697" text-anchor="middle" font-size="14" font-style="italic">Listener listesi tek bir invoker fonksiyonuna derlenip VolatileCallSite'ta yayınlanır; dispatch'te reflection ve kilit yoktur; 0–4 listener için döngü de yoktur (açık yazılmış lambda zinciri).</text>
+<text x="1420.0" y="1715" text-anchor="middle" font-size="14" font-style="italic">Spigot'taki merkezi HandlerList yerine her event tipinin kendi EventBus'ı vardır.</text>
+</svg>
