@@ -4,6 +4,10 @@ Fabric Loader 0.19.5 ve Fabric API 0.155.3+26.1.2 (Minecraft 26.1.2) event siste
 mekanizmasinin JADX ile incelenip yeniden uretilmis hali. Concurrency analizi:
 [concurrency-model.md](concurrency-model.md).
 
+## GoF Observer eslesmesi
+
+![Fabric event sistemi Observer UML diyagrami](fabric-event-observer-uml.svg)
+
 ## Modul ayrimi
 
 | Gercek ekosistem | Bizim modulumuz | Rolu |

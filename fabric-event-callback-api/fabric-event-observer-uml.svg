@@ -1,0 +1,545 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2820 1785" width="2820" height="1785" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowYjhkZWY0Zi1hMDRlLTQwOGUtYTk4Yi01OGMxNTU5OTEyM2IAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaN/7vsYveAeV/CqEAM7xmJMAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo3YjI4Zjg0Ni1jZjhhLTQ5M2QtOWRlNS1jZjlhNzZjNzY3OThscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNonDSiqsRf+Bva7c3CvKvZPwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg227iIbUgWCX1aEoHL++aPSpwqcsLr/lmh93iqB0nwZukZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaA9neVN1+KhIKw8tetPM4Q0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDx29yrnOVNnu9LtI7X4miPiYO2FLdSTtLpu/xOfXlsTWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiaZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjBiOGRlZjRmLWEwNGUtNDA4ZS1hOThiLTU4YzE1NTk5MTIzYi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjVjY2NjMzRjLTgxM2YtNDZmYy1iN2QyLWVkODUxOTBkZTdjZHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDbbuIhtSBYJfVoSgcv75o9KnCpywuv+WaH3eKoHSfBm6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggM5XP/D9hVxZ4Gtmx1k383TVHbJn2OHi3MM7V+uRq92eiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggoacul1guLIJp4yy0Xs1O+ZNxNwU+WVjtk25K1YJrPbN0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQMBo5+QJ/nIcEV+aICtt1pGzMcqM+8XFfut0dh/RDnGnZ+hFPpTsxkEOH84GaAlbXfBrskwKZKSeloPIlxVYpc4=</c2pa:manifest></metadata>
+<defs>
+<style>
+text{fill:#000}
+.t{font-family:'Times New Roman',Times,'Liberation Serif',serif;font-size:26px;font-weight:bold}
+.st,.cs,.nm,.mb,.lb,.pk,.pt{font-family:'DejaVu Sans Mono',Consolas,'Liberation Mono',Menlo,monospace}
+.st{font-size:10.5px}
+.cs{font-size:10.5px;font-style:italic}
+.nm{font-size:13px;font-weight:bold}
+.mb{font-size:11px}
+.cm{fill:#555;font-style:italic}
+.hb{font-weight:bold}
+.i{font-style:italic}
+.u{text-decoration:underline}
+.s{font-size:10px}
+.lb{font-size:10.5px}
+.pk{font-size:11px;fill:#333}
+.pt{font-size:14px;font-weight:bold}
+.box{stroke:#000;stroke-width:1.2}
+.ln{stroke:#000;stroke-width:1.1;fill:none}
+.dash{stroke-dasharray:6 4}
+.nl{stroke:#000;stroke-width:0.9;fill:none;stroke-dasharray:3 3}
+.note{fill:#fff6bf;stroke:#8a7a20;stroke-width:1}
+.nf{fill:none;stroke:#8a7a20;stroke-width:1}
+.nt{font-family:'Times New Roman',Times,'Liberation Serif',serif;font-size:12.5px;font-style:italic}
+</style>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#000" stroke-width="1.1"/></marker>
+<marker id="tri" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L15,8 L1,15 z" fill="#fff" stroke="#000" stroke-width="1.1"/></marker>
+</defs>
+<rect width="2820" height="1785" fill="#fff"/>
+<text x="1410.0" y="42" text-anchor="middle" class="t">Fabric Event Callback API — GoF Observer Mapping (Fabric Loader 0.19.5 / Fabric API 26.1.2)</text>
+<line x1="790.0" y1="54" x2="2030.0" y2="54" stroke="#000" stroke-width="0.8"/>
+<rect x="20" y="100" width="1252" height="592" fill="#eaf2fb" stroke="#777" stroke-width="1"/><rect x="20" y="82" width="253.59999999999997" height="18" fill="#eaf2fb" stroke="#777" stroke-width="1"/><text x="28" y="95" class="pk">me.erano.com.fabric.fabric.api.event</text>
+<rect x="20" y="732" width="1252" height="558" fill="#ecf6ea" stroke="#777" stroke-width="1"/><rect x="20" y="714" width="293.2" height="18" fill="#ecf6ea" stroke="#777" stroke-width="1"/><text x="28" y="727" class="pk">me.erano.com.fabric.fabric.impl.base.event</text>
+<rect x="20" y="1330" width="1252" height="354" fill="#f3eefa" stroke="#777" stroke-width="1"/><rect x="20" y="1312" width="313.0" height="18" fill="#f3eefa" stroke="#777" stroke-width="1"/><text x="28" y="1325" class="pk">me.erano.com.fabric.fabric.impl.base.toposort</text>
+<rect x="1310" y="190" width="590" height="769" fill="#fdf2e4" stroke="#777" stroke-width="1"/><rect x="1310" y="172" width="425.19999999999993" height="18" fill="#fdf2e4" stroke="#777" stroke-width="1"/><text x="1318" y="185" class="pk">me.erano.com.fabric.fabric.api.event.lifecycle.v1 / message.v1</text>
+<rect x="1995" y="100" width="805" height="556" fill="#f1f1f1" stroke="#777" stroke-width="1"/><rect x="1995" y="82" width="273.4" height="18" fill="#f1f1f1" stroke="#777" stroke-width="1"/><text x="2003" y="95" class="pk">me.erano.com.fabric.minecraft.*  (stub)</text>
+<rect x="1995" y="706" width="805" height="241" fill="#e6f5f3" stroke="#777" stroke-width="1"/><rect x="1995" y="688" width="319.59999999999997" height="18" fill="#e6f5f3" stroke="#777" stroke-width="1"/><text x="2003" y="701" class="pk">me.erano.com.fabric.example  (fabric-mod-impl)</text>
+<rect x="1288" y="991" width="1520" height="776" fill="#f7f6ec" stroke="#000" stroke-width="2"/>
+<text x="1304" y="1013" class="pt">Mod yükleme (entrypoint)</text>
+<rect class="box" x="720" y="130" width="500" height="191" fill="#fff"/>
+<text x="970.0" y="146" text-anchor="middle" class="st">«Subject»</text>
+<text x="970.0" y="159" text-anchor="middle" class="st">«abstract»</text>
+<text x="970.0" y="175" text-anchor="middle" class="nm i">Event&lt;T&gt;</text>
+<line class="ln" x1="720" y1="183" x2="1220" y2="183"/>
+<text x="728" y="195" class="mb"># invoker : T {volatile}</text>
+<text x="746" y="209" class="mb cm">// okuma yolunun tamamı: kilitsiz volatile okuma</text>
+<text x="728" y="223" class="mb u">+ DEFAULT_PHASE : Identifier {static final}</text>
+<text x="746" y="237" class="mb cm">// "fabric:default"</text>
+<line class="ln" x1="720" y1="245" x2="1220" y2="245"/>
+<text x="728" y="257" class="mb i">+ register(listener: T) : void {abstract}</text>
+<text x="728" y="271" class="mb">+ invoker() : T {final}</text>
+<text x="728" y="285" class="mb">+ register(phase: Identifier, listener: T) : void</text>
+<text x="728" y="299" class="mb">+ addPhaseOrdering(firstPhase: Identifier,</text>
+<text x="746" y="313" class="mb">secondPhase: Identifier) : void</text>
+<rect class="box" x="40" y="130" width="500" height="206" fill="#fff"/>
+<text x="290.0" y="146" text-anchor="middle" class="st">«Factory»</text>
+<text x="290.0" y="159" text-anchor="middle" class="st">«utility»</text>
+<text x="290.0" y="175" text-anchor="middle" class="nm">EventFactory</text>
+<text x="290.0" y="188" text-anchor="middle" class="cs">{final, private ctor}</text>
+<line class="ln" x1="40" y1="196" x2="540" y2="196"/>
+<line class="ln" x1="40" y1="204" x2="540" y2="204"/>
+<text x="48" y="216" class="mb u">+ createArrayBacked(type: Class&lt;? super T&gt;,</text>
+<text x="66" y="230" class="mb u">invokerFactory: Function&lt;T[], T&gt;) : Event&lt;T&gt; {static}</text>
+<text x="48" y="244" class="mb u">+ createArrayBacked(type: Class&lt;T&gt;, emptyInvoker: T,</text>
+<text x="66" y="258" class="mb u">invokerFactory: Function&lt;T[], T&gt;) : Event&lt;T&gt; {static}</text>
+<text x="66" y="272" class="mb cm">// 0 listener → emptyInvoker, 1 → listeners[0], yoksa factory</text>
+<text x="48" y="286" class="mb u">+ createWithPhases(type, invokerFactory,</text>
+<text x="66" y="300" class="mb u">defaultPhases: Identifier...) : Event&lt;T&gt; {static}</text>
+<text x="66" y="314" class="mb cm">// fazları sırayla bağlar: a → b → c</text>
+<text x="48" y="328" class="mb u">+ invalidate() : void {static} {deprecated}</text>
+<rect class="box" x="150" y="456" width="390" height="94" fill="#fff"/>
+<text x="345.0" y="472" text-anchor="middle" class="st">«Observer»</text>
+<text x="345.0" y="485" text-anchor="middle" class="st">«interface»</text>
+<text x="345.0" y="501" text-anchor="middle" class="nm">T  (callback arayüzü)</text>
+<text x="345.0" y="514" text-anchor="middle" class="cs">{@FunctionalInterface — holder'ların iç arayüzleri}</text>
+<line class="ln" x1="150" y1="522" x2="540" y2="522"/>
+<line class="ln" x1="150" y1="530" x2="540" y2="530"/>
+<text x="158" y="542" class="mb">+ onXxx(...) : void | boolean</text>
+<rect class="box" x="150" y="590" width="390" height="82" fill="#fff"/>
+<text x="345.0" y="606" text-anchor="middle" class="st">«annotation»</text>
+<text x="345.0" y="622" text-anchor="middle" class="nm">@AutoInvokingEvent</text>
+<line class="ln" x1="150" y1="630" x2="540" y2="630"/>
+<line class="ln" x1="150" y1="638" x2="540" y2="638"/>
+<text x="158" y="650" class="mb cm">// entrypoint sınıfı callback'i implement ederse</text>
+<text x="158" y="664" class="mb cm">// otomatik kaydedilir (dokümantasyon işareti)</text>
+<rect class="box" x="620" y="762" width="640" height="303" fill="#fff"/>
+<text x="940.0" y="778" text-anchor="middle" class="st">«ConcreteSubject»</text>
+<text x="940.0" y="794" text-anchor="middle" class="nm">ArrayBackedEvent&lt;T&gt;</text>
+<text x="940.0" y="807" text-anchor="middle" class="cs">{extends Event&lt;T&gt; — paket-içi sınıf}</text>
+<line class="ln" x1="620" y1="815" x2="1260" y2="815"/>
+<text x="628" y="827" class="mb">- invokerFactory : Function&lt;T[], T&gt; {final}</text>
+<text x="628" y="841" class="mb">- lock : Object {final}</text>
+<text x="628" y="855" class="mb">- handlers : T[]</text>
+<text x="646" y="869" class="mb cm">// tüm fazların listener'ları, faz sırasıyla düzleştirilmiş</text>
+<text x="628" y="883" class="mb">- phases : Map&lt;Identifier, EventPhaseData&lt;T&gt;&gt;   // LinkedHashMap</text>
+<text x="628" y="897" class="mb">- sortedPhases : List&lt;EventPhaseData&lt;T&gt;&gt;</text>
+<line class="ln" x1="620" y1="905" x2="1260" y2="905"/>
+<text x="628" y="917" class="mb">~ update() : void</text>
+<text x="646" y="931" class="mb cm">// invoker = invokerFactory.apply(handlers)</text>
+<text x="628" y="945" class="mb">+ register(listener: T) : void</text>
+<text x="646" y="959" class="mb cm">// DEFAULT_PHASE'e yönlendirir</text>
+<text x="628" y="973" class="mb">+ register(phase: Identifier, listener: T) : void {synchronized(lock)}</text>
+<text x="628" y="987" class="mb">- getOrCreatePhase(id: Identifier, sortIfCreate: boolean)</text>
+<text x="646" y="1001" class="mb">: EventPhaseData&lt;T&gt;</text>
+<text x="628" y="1015" class="mb">- rebuildInvoker(newLength: int) : void</text>
+<text x="646" y="1029" class="mb cm">// fazların dizilerini YENİ bir diziye kopyalar, sonra update()</text>
+<text x="628" y="1043" class="mb">+ addPhaseOrdering(first, second) : void {synchronized(lock)}</text>
+<text x="646" y="1057" class="mb cm">// link + NodeSorting.sort + rebuildInvoker</text>
+<rect class="box" x="620" y="1135" width="420" height="135" fill="#fff"/>
+<text x="830.0" y="1151" text-anchor="middle" class="st">«Observer listesi (faz)»</text>
+<text x="830.0" y="1167" text-anchor="middle" class="nm">EventPhaseData&lt;T&gt;</text>
+<text x="830.0" y="1180" text-anchor="middle" class="cs">{extends SortableNode&lt;EventPhaseData&lt;T&gt;&gt;}</text>
+<line class="ln" x1="620" y1="1188" x2="1040" y2="1188"/>
+<text x="628" y="1200" class="mb">~ id : Identifier {final}</text>
+<text x="628" y="1214" class="mb">~ listeners : T[]</text>
+<line class="ln" x1="620" y1="1222" x2="1040" y2="1222"/>
+<text x="628" y="1234" class="mb">~ addListener(listener: T) : void</text>
+<text x="646" y="1248" class="mb cm">// Arrays.copyOf ile copy-on-write</text>
+<text x="628" y="1262" class="mb"># getDescription() : String</text>
+<rect class="box" x="40" y="762" width="500" height="177" fill="#fff"/>
+<text x="290.0" y="778" text-anchor="middle" class="st">«utility»</text>
+<text x="290.0" y="794" text-anchor="middle" class="nm">EventFactoryImpl</text>
+<text x="290.0" y="807" text-anchor="middle" class="cs">{final}</text>
+<line class="ln" x1="40" y1="815" x2="540" y2="815"/>
+<text x="48" y="827" class="mb u">- ARRAY_BACKED_EVENTS : Set&lt;ArrayBackedEvent&lt;?&gt;&gt;</text>
+<text x="66" y="841" class="mb">{static final}</text>
+<text x="66" y="855" class="mb cm">// Guava MapMaker().weakKeys() → concurrent, weak</text>
+<line class="ln" x1="40" y1="863" x2="540" y2="863"/>
+<text x="48" y="875" class="mb u">+ createArrayBacked(type, invokerFactory) : Event&lt;T&gt; {static}</text>
+<text x="48" y="889" class="mb u">+ invalidate() : void {static}</text>
+<text x="66" y="903" class="mb cm">// tüm event'lerde update(); event kilidini ALMAZ</text>
+<text x="48" y="917" class="mb u">+ ensureContainsDefault(phases: Identifier[]) : void {static}</text>
+<text x="48" y="931" class="mb u">+ ensureNoDuplicates(phases: Identifier[]) : void {static}</text>
+<rect class="box" x="620" y="1360" width="360" height="122" fill="#fff"/>
+<text x="800.0" y="1376" text-anchor="middle" class="st">«abstract»</text>
+<text x="800.0" y="1392" text-anchor="middle" class="nm i">SortableNode&lt;N extends SortableNode&lt;N&gt;&gt;</text>
+<line class="ln" x1="620" y1="1400" x2="980" y2="1400"/>
+<text x="628" y="1412" class="mb"># subsequentNodes : List&lt;N&gt; {final}</text>
+<text x="628" y="1426" class="mb"># previousNodes : List&lt;N&gt; {final}</text>
+<text x="628" y="1440" class="mb">~ visited : boolean</text>
+<line class="ln" x1="620" y1="1448" x2="980" y2="1448"/>
+<text x="628" y="1460" class="mb i"># getDescription() : String {abstract}</text>
+<text x="628" y="1474" class="mb u">+ link(first: N, second: N) : void {static}</text>
+<rect class="box" x="1010" y="1360" width="250" height="184" fill="#fff"/>
+<text x="1135.0" y="1376" text-anchor="middle" class="st">«utility»</text>
+<text x="1135.0" y="1392" text-anchor="middle" class="nm">NodeSorting</text>
+<line class="ln" x1="1010" y1="1400" x2="1260" y2="1400"/>
+<text x="1018" y="1412" class="mb u">+ ENABLE_CYCLE_WARNING : boolean</text>
+<text x="1036" y="1426" class="mb">{static}</text>
+<line class="ln" x1="1010" y1="1434" x2="1260" y2="1434"/>
+<text x="1018" y="1446" class="mb u">+ sort(nodes: List&lt;N&gt;,</text>
+<text x="1036" y="1460" class="mb u">description: String,</text>
+<text x="1036" y="1474" class="mb u">comparator: Comparator&lt;N&gt;)</text>
+<text x="1036" y="1488" class="mb u">: boolean {static}</text>
+<line class="ln" x1="1010" y1="1496" x2="1260" y2="1496"/>
+<text x="1018" y="1508" class="mb hb">«inner» NodeScc&lt;N&gt;</text>
+<text x="1036" y="1522" class="mb">nodes, subsequentSccs,</text>
+<text x="1036" y="1536" class="mb">inDegree</text>
+<rect class="box" x="1330" y="220" width="550" height="163" fill="#fff"/>
+<text x="1605.0" y="236" text-anchor="middle" class="st">«Event holder»</text>
+<text x="1605.0" y="252" text-anchor="middle" class="nm">ServerLifecycleEvents</text>
+<text x="1605.0" y="265" text-anchor="middle" class="cs">{final}</text>
+<line class="ln" x1="1330" y1="273" x2="1880" y2="273"/>
+<text x="1338" y="285" class="mb u">+ SERVER_STARTING : Event&lt;ServerStarting&gt; {static final}</text>
+<text x="1338" y="299" class="mb u">+ SERVER_STARTED : Event&lt;ServerStarted&gt; {static final}</text>
+<text x="1338" y="313" class="mb u">+ SERVER_STOPPING : Event&lt;ServerStopping&gt; {static final}</text>
+<text x="1338" y="327" class="mb u">+ SERVER_STOPPED : Event&lt;ServerStopped&gt; {static final}</text>
+<line class="ln" x1="1330" y1="335" x2="1880" y2="335"/>
+<text x="1338" y="347" class="mb hb">«Observer» iç arayüzler (@FunctionalInterface)</text>
+<text x="1338" y="361" class="mb">ServerStarting.onServerStarting(server: MinecraftServer)</text>
+<text x="1338" y="375" class="mb">ServerStarted / ServerStopping / ServerStopped</text>
+<rect class="box" x="1330" y="433" width="550" height="95" fill="#fff"/>
+<text x="1605.0" y="449" text-anchor="middle" class="st">«Event holder»</text>
+<text x="1605.0" y="465" text-anchor="middle" class="nm">ServerTickEvents</text>
+<text x="1605.0" y="478" text-anchor="middle" class="cs">{final}</text>
+<line class="ln" x1="1330" y1="486" x2="1880" y2="486"/>
+<text x="1338" y="498" class="mb u">+ START_SERVER_TICK : Event&lt;StartTick&gt; {static final}</text>
+<text x="1338" y="512" class="mb u">+ END_SERVER_TICK : Event&lt;EndTick&gt; {static final}</text>
+<line class="ln" x1="1330" y1="520" x2="1880" y2="520"/>
+<rect class="box" x="1345" y="578" width="255" height="108" fill="#fff"/>
+<text x="1472.5" y="594" text-anchor="middle" class="st">«Observer»</text>
+<text x="1472.5" y="607" text-anchor="middle" class="st">«interface»</text>
+<text x="1472.5" y="623" text-anchor="middle" class="nm">StartTick</text>
+<text x="1472.5" y="636" text-anchor="middle" class="cs">{@FunctionalInterface}</text>
+<line class="ln" x1="1345" y1="644" x2="1600" y2="644"/>
+<line class="ln" x1="1345" y1="652" x2="1600" y2="652"/>
+<text x="1353" y="664" class="mb">+ onStartTick(server:</text>
+<text x="1371" y="678" class="mb">MinecraftServer) : void</text>
+<rect class="box" x="1620" y="578" width="255" height="108" fill="#fff"/>
+<text x="1747.5" y="594" text-anchor="middle" class="st">«Observer»</text>
+<text x="1747.5" y="607" text-anchor="middle" class="st">«interface»</text>
+<text x="1747.5" y="623" text-anchor="middle" class="nm">EndTick</text>
+<text x="1747.5" y="636" text-anchor="middle" class="cs">{@FunctionalInterface}</text>
+<line class="ln" x1="1620" y1="644" x2="1875" y2="644"/>
+<line class="ln" x1="1620" y1="652" x2="1875" y2="652"/>
+<text x="1628" y="664" class="mb">+ onEndTick(server:</text>
+<text x="1646" y="678" class="mb">MinecraftServer) : void</text>
+<rect class="box" x="1330" y="736" width="550" height="163" fill="#fff"/>
+<text x="1605.0" y="752" text-anchor="middle" class="st">«Event holder»</text>
+<text x="1605.0" y="768" text-anchor="middle" class="nm">ServerMessageEvents</text>
+<text x="1605.0" y="781" text-anchor="middle" class="cs">{final}</text>
+<line class="ln" x1="1330" y1="789" x2="1880" y2="789"/>
+<text x="1338" y="801" class="mb u">+ ALLOW_CHAT_MESSAGE : Event&lt;AllowChatMessage&gt; {static final}</text>
+<text x="1356" y="815" class="mb cm">// invoker: ilk false'ta durur → iptal</text>
+<text x="1338" y="829" class="mb u">+ CHAT_MESSAGE : Event&lt;ChatMessage&gt; {static final}</text>
+<line class="ln" x1="1330" y1="837" x2="1880" y2="837"/>
+<text x="1338" y="849" class="mb hb">«Observer» iç arayüzler</text>
+<text x="1338" y="863" class="mb">AllowChatMessage.allowChatMessage(message: PlayerChatMessage,</text>
+<text x="1356" y="877" class="mb">sender: ServerPlayer, bound: ChatType.Bound) : boolean</text>
+<text x="1338" y="891" class="mb">ChatMessage.onChatMessage(...) : void</text>
+<rect class="box" x="2010" y="130" width="470" height="219" fill="#fff"/>
+<text x="2245.0" y="146" text-anchor="middle" class="st">«Client / tetikleyici»</text>
+<text x="2245.0" y="162" text-anchor="middle" class="nm">MinecraftServer</text>
+<text x="2245.0" y="175" text-anchor="middle" class="cs">{implements java.util.concurrent.Executor}</text>
+<line class="ln" x1="2010" y1="183" x2="2480" y2="183"/>
+<text x="2018" y="195" class="mb">- pendingTasks : Queue&lt;Runnable&gt;   // ConcurrentLinkedQueue</text>
+<text x="2018" y="209" class="mb">- serverThread : Thread {volatile}</text>
+<text x="2018" y="223" class="mb">- playerList : PlayerList</text>
+<line class="ln" x1="2010" y1="231" x2="2480" y2="231"/>
+<text x="2018" y="243" class="mb">+ execute(task: Runnable) : void</text>
+<text x="2036" y="257" class="mb cm">// başka thread'ler işi kuyruğa bırakır</text>
+<text x="2018" y="271" class="mb">+ runServer(ticks: int) : void</text>
+<text x="2036" y="285" class="mb cm">// SERVER_STARTING → SERVER_STARTED</text>
+<text x="2036" y="299" class="mb cm">// → tick döngüsü → SERVER_STOPPING → SERVER_STOPPED</text>
+<text x="2018" y="313" class="mb">- tickServer() : void</text>
+<text x="2036" y="327" class="mb cm">// START_SERVER_TICK → tickChildren()</text>
+<text x="2036" y="341" class="mb cm">// (kuyruğu boşaltır) → END_SERVER_TICK</text>
+<rect class="box" x="2010" y="419" width="470" height="96" fill="#fff"/>
+<text x="2245.0" y="435" text-anchor="middle" class="st">«Client / tetikleyici»</text>
+<text x="2245.0" y="451" text-anchor="middle" class="nm">PlayerList</text>
+<line class="ln" x1="2010" y1="459" x2="2480" y2="459"/>
+<line class="ln" x1="2010" y1="467" x2="2480" y2="467"/>
+<text x="2018" y="479" class="mb">+ broadcastChatMessage(message, sender, bound) : void</text>
+<text x="2036" y="493" class="mb cm">// ALLOW_CHAT_MESSAGE false ise return (ci.cancel()),</text>
+<text x="2036" y="507" class="mb cm">// değilse CHAT_MESSAGE</text>
+<rect class="box" x="2010" y="555" width="200" height="81" fill="#fff"/>
+<text x="2110.0" y="571" text-anchor="middle" class="st">«record»</text>
+<text x="2110.0" y="587" text-anchor="middle" class="nm">Identifier</text>
+<text x="2110.0" y="600" text-anchor="middle" class="cs">{Comparable — faz sırası}</text>
+<line class="ln" x1="2010" y1="608" x2="2210" y2="608"/>
+<text x="2018" y="620" class="mb">namespace, path</text>
+<line class="ln" x1="2010" y1="628" x2="2210" y2="628"/>
+<rect class="box" x="2220" y="555" width="182" height="68" fill="#fff"/>
+<text x="2311.0" y="571" text-anchor="middle" class="st">«record»</text>
+<text x="2311.0" y="587" text-anchor="middle" class="nm">ServerPlayer</text>
+<line class="ln" x1="2220" y1="595" x2="2402" y2="595"/>
+<text x="2228" y="607" class="mb">name</text>
+<line class="ln" x1="2220" y1="615" x2="2402" y2="615"/>
+<rect class="box" x="2412" y="555" width="182" height="68" fill="#fff"/>
+<text x="2503.0" y="571" text-anchor="middle" class="st">«record»</text>
+<text x="2503.0" y="587" text-anchor="middle" class="nm">PlayerChatMessage</text>
+<line class="ln" x1="2412" y1="595" x2="2594" y2="595"/>
+<text x="2420" y="607" class="mb">content</text>
+<line class="ln" x1="2412" y1="615" x2="2594" y2="615"/>
+<rect class="box" x="2604" y="555" width="182" height="68" fill="#fff"/>
+<text x="2695.0" y="571" text-anchor="middle" class="st">«record»</text>
+<text x="2695.0" y="587" text-anchor="middle" class="nm">ChatType.Bound</text>
+<line class="ln" x1="2604" y1="595" x2="2786" y2="595"/>
+<text x="2612" y="607" class="mb">name</text>
+<line class="ln" x1="2604" y1="615" x2="2786" y2="615"/>
+<rect class="box" x="2010" y="736" width="470" height="191" fill="#fff"/>
+<text x="2245.0" y="752" text-anchor="middle" class="st">«ConcreteObserver kaydeden»</text>
+<text x="2245.0" y="768" text-anchor="middle" class="nm">ExampleMod</text>
+<text x="2245.0" y="781" text-anchor="middle" class="cs">{implements ModInitializer}</text>
+<line class="ln" x1="2010" y1="789" x2="2480" y2="789"/>
+<text x="2018" y="801" class="mb u">+ MOD_ID : String = "examplemod" {static final}</text>
+<text x="2018" y="815" class="mb u">- EARLY_PHASE : Identifier {static final}</text>
+<text x="2036" y="829" class="mb cm">// examplemod:early</text>
+<line class="ln" x1="2010" y1="837" x2="2480" y2="837"/>
+<text x="2018" y="849" class="mb">+ onInitialize() : void</text>
+<text x="2036" y="863" class="mb cm">// tüm event'lere lambda kaydeder; SERVER_STARTED</text>
+<text x="2036" y="877" class="mb cm">// için EARLY_PHASE'e kaydedip</text>
+<text x="2036" y="891" class="mb cm">// addPhaseOrdering(EARLY_PHASE, DEFAULT_PHASE)</text>
+<text x="2018" y="905" class="mb u">+ onInitializeServer() : void {static}</text>
+<text x="2036" y="919" class="mb cm">// "server" entrypoint'i, Class::method biçimi</text>
+<rect class="box" x="1310" y="1047" width="378" height="96" fill="#fff"/>
+<text x="1499.0" y="1063" text-anchor="middle" class="st">«utility»</text>
+<text x="1499.0" y="1079" text-anchor="middle" class="nm">Hooks</text>
+<line class="ln" x1="1310" y1="1087" x2="1688" y2="1087"/>
+<line class="ln" x1="1310" y1="1095" x2="1688" y2="1095"/>
+<text x="1318" y="1107" class="mb u">+ startServer(gameInstance: Object) : void {static}</text>
+<text x="1336" y="1121" class="mb cm">// invokeEntrypoints("main", ModInitializer)</text>
+<text x="1336" y="1135" class="mb cm">// → invokeEntrypoints("server", ...)</text>
+<rect class="box" x="1310" y="1198" width="460" height="192" fill="#fff"/>
+<text x="1540.0" y="1217" text-anchor="middle" class="nm">FabricLoaderImpl</text>
+<text x="1540.0" y="1230" text-anchor="middle" class="cs">{final, singleton}</text>
+<line class="ln" x1="1310" y1="1238" x2="1770" y2="1238"/>
+<text x="1318" y="1250" class="mb u">+ INSTANCE : FabricLoaderImpl {static final}</text>
+<text x="1318" y="1264" class="mb">- mods : List&lt;ModContainerImpl&gt;</text>
+<text x="1318" y="1278" class="mb">- adapterMap : Map&lt;String, LanguageAdapter&gt;</text>
+<text x="1318" y="1292" class="mb">- entrypointStorage : EntrypointStorage</text>
+<line class="ln" x1="1310" y1="1300" x2="1770" y2="1300"/>
+<text x="1318" y="1312" class="mb">+ load() : void</text>
+<text x="1336" y="1326" class="mb cm">// classpath'teki fabric.mod.json'ları okur</text>
+<text x="1318" y="1340" class="mb">+ invokeEntrypoints(key, type, invoker: Consumer&lt;T&gt;)</text>
+<text x="1336" y="1354" class="mb">: void</text>
+<text x="1336" y="1368" class="mb cm">// çağıran thread'de, sırayla; hatalar toplanıp</text>
+<text x="1336" y="1382" class="mb cm">// sonda fırlatılır</text>
+<rect class="box" x="1810" y="1198" width="330" height="129" fill="#fff"/>
+<text x="1975.0" y="1217" text-anchor="middle" class="nm">EntrypointStorage</text>
+<line class="ln" x1="1810" y1="1225" x2="2140" y2="1225"/>
+<text x="1818" y="1237" class="mb">- entryMap : Map&lt;String, List&lt;Entry&gt;&gt;</text>
+<line class="ln" x1="1810" y1="1245" x2="2140" y2="1245"/>
+<text x="1818" y="1257" class="mb hb">«inner interface» Entry</text>
+<text x="1836" y="1271" class="mb">getOrCreate(type) : T</text>
+<line class="ln" x1="1810" y1="1279" x2="2140" y2="1279"/>
+<text x="1818" y="1291" class="mb hb">«inner» NewEntry implements Entry</text>
+<text x="1836" y="1305" class="mb">- instanceMap : IdentityHashMap</text>
+<text x="1836" y="1319" class="mb">getOrCreate(type) {synchronized}</text>
+<rect class="box" x="2180" y="1198" width="290" height="69" fill="#fff"/>
+<text x="2325.0" y="1217" text-anchor="middle" class="nm">EntrypointContainerImpl&lt;T&gt;</text>
+<line class="ln" x1="2180" y1="1225" x2="2470" y2="1225"/>
+<line class="ln" x1="2180" y1="1233" x2="2470" y2="1233"/>
+<text x="2188" y="1245" class="mb">+ getEntrypoint() : T {synchronized}</text>
+<text x="2206" y="1259" class="mb cm">// lazy init</text>
+<rect class="box" x="2510" y="1198" width="260" height="68" fill="#fff"/>
+<text x="2640.0" y="1214" text-anchor="middle" class="st">«interface»</text>
+<text x="2640.0" y="1230" text-anchor="middle" class="nm">LanguageAdapter</text>
+<line class="ln" x1="2510" y1="1238" x2="2770" y2="1238"/>
+<line class="ln" x1="2510" y1="1246" x2="2770" y2="1246"/>
+<text x="2518" y="1258" class="mb">+ create(mod, value, type) : T</text>
+<rect class="box" x="2100" y="1047" width="330" height="81" fill="#fff"/>
+<text x="2265.0" y="1063" text-anchor="middle" class="st">«"main" entrypoint»</text>
+<text x="2265.0" y="1076" text-anchor="middle" class="st">«interface»</text>
+<text x="2265.0" y="1092" text-anchor="middle" class="nm">ModInitializer</text>
+<line class="ln" x1="2100" y1="1100" x2="2430" y2="1100"/>
+<line class="ln" x1="2100" y1="1108" x2="2430" y2="1108"/>
+<text x="2108" y="1120" class="mb">+ onInitialize() : void</text>
+<rect class="box" x="1700" y="1047" width="360" height="81" fill="#fff"/>
+<text x="1880.0" y="1063" text-anchor="middle" class="st">«"server" entrypoint»</text>
+<text x="1880.0" y="1076" text-anchor="middle" class="st">«interface»</text>
+<text x="1880.0" y="1092" text-anchor="middle" class="nm">DedicatedServerModInitializer</text>
+<line class="ln" x1="1700" y1="1100" x2="2060" y2="1100"/>
+<line class="ln" x1="1700" y1="1108" x2="2060" y2="1108"/>
+<text x="1708" y="1120" class="mb">+ onInitializeServer() : void</text>
+<rect class="box" x="1650" y="1445" width="210" height="56" fill="#fff"/>
+<text x="1755.0" y="1461" text-anchor="middle" class="st">«interface»</text>
+<text x="1755.0" y="1477" text-anchor="middle" class="nm">ModContainer</text>
+<line class="ln" x1="1650" y1="1485" x2="1860" y2="1485"/>
+<line class="ln" x1="1650" y1="1493" x2="1860" y2="1493"/>
+<rect class="box" x="1310" y="1445" width="300" height="69" fill="#fff"/>
+<text x="1460.0" y="1464" text-anchor="middle" class="nm">ModContainerImpl</text>
+<line class="ln" x1="1310" y1="1472" x2="1610" y2="1472"/>
+<text x="1318" y="1484" class="mb">- info : LoaderModMetadata</text>
+<text x="1318" y="1498" class="mb">- origin : String</text>
+<line class="ln" x1="1310" y1="1506" x2="1610" y2="1506"/>
+<rect class="box" x="1900" y="1445" width="240" height="56" fill="#fff"/>
+<text x="2020.0" y="1461" text-anchor="middle" class="st">«interface»</text>
+<text x="2020.0" y="1477" text-anchor="middle" class="nm">ModMetadata</text>
+<line class="ln" x1="1900" y1="1485" x2="2140" y2="1485"/>
+<line class="ln" x1="1900" y1="1493" x2="2140" y2="1493"/>
+<rect class="box" x="2180" y="1445" width="290" height="68" fill="#fff"/>
+<text x="2325.0" y="1461" text-anchor="middle" class="st">«interface»</text>
+<text x="2325.0" y="1477" text-anchor="middle" class="nm">EntrypointContainer&lt;T&gt;</text>
+<line class="ln" x1="2180" y1="1485" x2="2470" y2="1485"/>
+<line class="ln" x1="2180" y1="1493" x2="2470" y2="1493"/>
+<text x="2188" y="1505" class="mb">+ getEntrypoint() : T</text>
+<rect class="box" x="2500" y="1445" width="280" height="110" fill="#fff"/>
+<text x="2640.0" y="1461" text-anchor="middle" class="st">«singleton»</text>
+<text x="2640.0" y="1477" text-anchor="middle" class="nm">DefaultLanguageAdapter</text>
+<line class="ln" x1="2500" y1="1485" x2="2780" y2="1485"/>
+<line class="ln" x1="2500" y1="1493" x2="2780" y2="1493"/>
+<text x="2508" y="1505" class="mb cm">// "pkg.Class", "pkg.Class::field",</text>
+<text x="2508" y="1519" class="mb cm">// "pkg.Class::method"</text>
+<text x="2508" y="1533" class="mb cm">// (MethodHandleProxies ile</text>
+<text x="2508" y="1547" class="mb cm">// arayüze uyarlar)</text>
+<rect class="box" x="1690" y="1610" width="250" height="83" fill="#fff"/>
+<text x="1815.0" y="1629" text-anchor="middle" class="nm">ModMetadataParser</text>
+<line class="ln" x1="1690" y1="1637" x2="1940" y2="1637"/>
+<line class="ln" x1="1690" y1="1645" x2="1940" y2="1645"/>
+<text x="1698" y="1657" class="mb">+ parse(...) : LoaderModMetadata</text>
+<text x="1716" y="1671" class="mb cm">// Gson ile fabric.mod.json</text>
+<text x="1716" y="1685" class="mb cm">// → id + entrypoints</text>
+<rect class="box" x="1990" y="1610" width="330" height="96" fill="#fff"/>
+<text x="2155.0" y="1626" text-anchor="middle" class="st">«record»</text>
+<text x="2155.0" y="1642" text-anchor="middle" class="nm">LoaderModMetadata</text>
+<line class="ln" x1="1990" y1="1650" x2="2320" y2="1650"/>
+<text x="1998" y="1662" class="mb">id : String</text>
+<text x="1998" y="1676" class="mb">entrypoints : Map&lt;String,</text>
+<text x="2016" y="1690" class="mb">List&lt;EntrypointMetadata&gt;&gt;</text>
+<line class="ln" x1="1990" y1="1698" x2="2320" y2="1698"/>
+<rect class="box" x="2380" y="1610" width="250" height="82" fill="#fff"/>
+<text x="2505.0" y="1626" text-anchor="middle" class="st">«record»</text>
+<text x="2505.0" y="1642" text-anchor="middle" class="nm">EntrypointMetadata</text>
+<line class="ln" x1="2380" y1="1650" x2="2630" y2="1650"/>
+<text x="2388" y="1662" class="mb">adapter : String</text>
+<text x="2388" y="1676" class="mb">value : String</text>
+<line class="ln" x1="2380" y1="1684" x2="2630" y2="1684"/>
+<path d="M1310,1610 L1594,1610 L1610,1626 L1610,1735 L1310,1735 Z" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<path class="ln" d="M1594,1610 L1594,1626 L1610,1626"/>
+<text x="1318" y="1627" class="mb hb" xml:space="preserve">«file» fabric.mod.json</text>
+<text x="1318" y="1642" class="mb" xml:space="preserve">"entrypoints": {</text>
+<text x="1318" y="1657" class="mb" xml:space="preserve">  "main": [</text>
+<text x="1318" y="1672" class="mb" xml:space="preserve">    "...example.ExampleMod"],</text>
+<text x="1318" y="1687" class="mb" xml:space="preserve">  "server": [</text>
+<text x="1318" y="1702" class="mb" xml:space="preserve">    "...ExampleMod::onInitializeServer"]</text>
+<text x="1318" y="1717" class="mb" xml:space="preserve">}</text>
+<path class="ln dash" d="M80,336 L80,762" marker-end="url(#open)"/>
+<text x="88" y="748" text-anchor="start" class="lb">«delegates»</text>
+<path class="ln" d="M980,762 L980,321" marker-end="url(#tri)"/>
+<path class="ln dash" d="M540,802 L620,802" marker-end="url(#open)"/>
+<text x="580.0" y="796" text-anchor="middle" class="lb">«creates»</text>
+<polygon points="540,852 552,858 564,852 552,846" fill="#fff" stroke="#000" stroke-width="1.1"/>
+<path class="ln" d="M564,852 L620,852" marker-end="url(#open)"/>
+<text x="586.0" y="868" text-anchor="middle" class="lb">0..* weak</text>
+<polygon points="660,762 666,750 660,738 654,750" fill="#fff" stroke="#000" stroke-width="1.1"/>
+<path class="ln" d="M660,738 L660,496 L540,496" marker-end="url(#open)"/>
+<text x="546" y="512" text-anchor="start" class="lb">0..*</text>
+<text x="668" y="659.0" text-anchor="start" class="lb">handlers : T[]</text>
+<polygon points="740,1065 734,1077 740,1089 746,1077" fill="#000" stroke="#000" stroke-width="1.1"/>
+<path class="ln" d="M740,1089 L740,1135" marker-end="url(#open)"/>
+<text x="748" y="1101" text-anchor="start" class="lb">phases / sortedPhases</text>
+<text x="748" y="1129" text-anchor="start" class="lb">1..*</text>
+<text x="726" y="1101" text-anchor="end" class="lb">1</text>
+<path class="ln" d="M800,1270 L800,1360" marker-end="url(#tri)"/>
+<path class="ln dash" d="M1135.0,1065 L1135.0,1360" marker-end="url(#open)"/>
+<text x="1143.0" y="1125" text-anchor="start" class="lb">«uses» sort()</text>
+<path class="ln" d="M1330,260 L1295,260"/>
+<path class="ln" d="M1330,473 L1295,473"/>
+<path class="ln" d="M1330,776 L1295,776"/>
+<path class="ln" d="M1295,776 L1295,190 L1220,190" marker-end="url(#open)"/>
+<text x="1226" y="184" text-anchor="start" class="lb">1</text>
+<text x="1226" y="206" text-anchor="start" class="lb s">{static final}</text>
+<circle cx="1472.5" cy="534" r="6" fill="#fff" stroke="#000" stroke-width="1.1"/><line class="ln" x1="1466.5" y1="534" x2="1478.5" y2="534"/><line class="ln" x1="1472.5" y1="528" x2="1472.5" y2="540"/>
+<path class="ln" d="M1472.5,540 L1472.5,578"/>
+<circle cx="1747.5" cy="534" r="6" fill="#fff" stroke="#000" stroke-width="1.1"/><line class="ln" x1="1741.5" y1="534" x2="1753.5" y2="534"/><line class="ln" x1="1747.5" y1="528" x2="1747.5" y2="540"/>
+<path class="ln" d="M1747.5,540 L1747.5,578"/>
+<text x="1878" y="564" text-anchor="end" class="lb i">iç arayüz = T</text>
+<path class="ln dash" d="M2010,290 L1880,290" marker-end="url(#open)"/>
+<text x="1888" y="284" text-anchor="start" class="lb">«notify»</text>
+<text x="1888" y="305" text-anchor="start" class="lb s">invoker().onXxx()</text>
+<path class="ln dash" d="M2010,319 L1925,319 L1925,483 L1880,483" marker-end="url(#open)"/>
+<text x="1938" y="401.0" text-anchor="middle" class="lb s" transform="rotate(90 1938 401.0)">«notify» TICK.invoker()</text>
+<path class="ln dash" d="M2010,469 L1962,469 L1962,766 L1880,766" marker-end="url(#open)"/>
+<text x="1975" y="617.5" text-anchor="middle" class="lb s" transform="rotate(90 1975 617.5)">«notify» chat event'leri .invoker()</text>
+<path class="ln dash" d="M2010,796 L1905,796 L1905,939 L1900,939" marker-end="url(#open)"/>
+<text x="1894" y="933" text-anchor="end" class="lb">«register» lambda'lar</text>
+<path class="ln" d="M1490,1143 L1490,1198" marker-end="url(#open)"/>
+<text x="1498" y="1188" text-anchor="start" class="lb">INSTANCE</text>
+<path class="ln" d="M1770,1238 L1810,1238" marker-end="url(#open)"/>
+<path class="ln" d="M2140,1238 L2180,1238" marker-end="url(#open)"/>
+<path class="ln" d="M2470,1238 L2510,1238" marker-end="url(#open)"/>
+<path class="ln dash" d="M2600,1198 L2600,1087 L2430,1087" marker-end="url(#open)"/>
+<text x="2438" y="1081" text-anchor="start" class="lb">«create» entrypoint örneği</text>
+<path class="ln dash" d="M2325.0,1267 L2325.0,1445" marker-end="url(#tri)"/>
+<path class="ln dash" d="M2600,1445 L2600,1266" marker-end="url(#tri)"/>
+<path class="ln" d="M1460,1390 L1460,1445" marker-end="url(#open)"/>
+<text x="1468" y="1437" text-anchor="start" class="lb">mods 0..*</text>
+<path class="ln dash" d="M1610,1475 L1650,1475" marker-end="url(#tri)"/>
+<path class="ln" d="M1560,1514 L1560,1585 L2005,1585 L2005,1610" marker-end="url(#open)"/>
+<text x="2013" y="1602" text-anchor="start" class="lb">info</text>
+<path class="ln dash" d="M2060,1610 L2060,1501" marker-end="url(#tri)"/>
+<path class="ln dash" d="M1610,1650 L1690,1650" marker-end="url(#open)"/>
+<text x="1650.0" y="1644" text-anchor="middle" class="lb s">«reads»</text>
+<path class="ln dash" d="M1940,1650 L1990,1650" marker-end="url(#open)"/>
+<text x="1965.0" y="1644" text-anchor="middle" class="lb s">«creates»</text>
+<path class="ln" d="M2320,1650 L2380,1650" marker-end="url(#open)"/>
+<text x="2376" y="1644" text-anchor="end" class="lb">0..*</text>
+<path class="ln dash" d="M2265,927 L2265,1047" marker-end="url(#tri)"/>
+<path class="ln dash" d="M2040,927 L2040,1047" marker-end="url(#open)"/>
+<text x="2048" y="967" text-anchor="start" class="lb s">«server entrypoint» Class::method</text>
+<polygon class="note" points="1310,90 1888,90 1900,102 1900,130 1310,130"/>
+<polyline class="nf" points="1888,90 1888,102 1900,102"/>
+<text x="1318" y="108" class="nt">Bus yok: her event kendi static alanında durur;</text>
+<text x="1318" y="123" class="nt">tetikleyen kod invoker()'ı doğrudan çağırır.</text>
+<polygon class="note" points="150,358 528,358 540,370 540,413 150,413"/>
+<polyline class="nf" points="528,358 528,370 540,370"/>
+<text x="158" y="376" class="nt">Event'in semantiği (sırayla çağır, ilk false'ta</text>
+<text x="158" y="391" class="nt">dur...) tamamen invokerFactory'de;</text>
+<text x="158" y="406" class="nt">çekirdekte öncelik/iptal yok.</text>
+<path class="nl" d="M350,358 L350,336"/>
+<polygon class="note" points="700,451 948,451 960,463 960,506 700,506"/>
+<polyline class="nf" points="948,451 948,463 960,463"/>
+<text x="708" y="469" class="nt">invoker de aynı T tipindedir:</text>
+<text x="708" y="484" class="nt">tüm listener'ları sarmalayan</text>
+<text x="708" y="499" class="nt">tek listener (Composite benzeri).</text>
+<path class="nl" d="M700,476 L540,476"/>
+<polygon class="note" points="720,339 938,339 950,351 950,364 720,364"/>
+<polyline class="nf" points="938,339 938,351 950,351"/>
+<text x="728" y="357" class="nt">Unregister yok.</text>
+<path class="nl" d="M760,339 L760,321"/>
+<polygon class="note" points="40,963 528,963 540,975 540,1048 40,1048"/>
+<polyline class="nf" points="528,963 528,975 540,975"/>
+<text x="48" y="981" class="nt">Senkronizasyon: yazma yolu (register,</text>
+<text x="48" y="996" class="nt">addPhaseOrdering) lock altında, okuma yolu</text>
+<text x="48" y="1011" class="nt">(invoker()) tek bir volatile okuma. Her değişiklikte</text>
+<text x="48" y="1026" class="nt">yeni dizi ve yeni invoker yayınlanır; eski dizi</text>
+<text x="48" y="1041" class="nt">hiç değişmez (immutable snapshot + safe publication).</text>
+<path class="nl" d="M540,993 L620,993"/>
+<polygon class="note" points="40,1068 528,1068 540,1080 540,1123 40,1123"/>
+<polyline class="nf" points="528,1068 528,1080 540,1080"/>
+<text x="48" y="1086" class="nt">Yazma yolu lock altında; her değişiklikte yeni dizi</text>
+<text x="48" y="1101" class="nt">+ yeni invoker yayınlanır (copy-on-write).</text>
+<text x="48" y="1116" class="nt">Unregister yok.</text>
+<path class="nl" d="M540,1093 L620,1093"/>
+<polygon class="note" points="40,1360 528,1360 540,1372 540,1400 40,1400"/>
+<polyline class="nf" points="528,1360 528,1372 540,1372"/>
+<text x="48" y="1378" class="nt">SortableNode: thread-safe değil; sadece sahibi</text>
+<text x="48" y="1393" class="nt">olan event'in kilidi altında kullanılır.</text>
+<path class="nl" d="M540,1385 L620,1385"/>
+<polygon class="note" points="600,1568 1248,1568 1260,1580 1260,1623 600,1623"/>
+<polyline class="nf" points="1248,1568 1248,1580 1260,1580"/>
+<text x="608" y="1586" class="nt">NodeSorting: Kosaraju (SCC) + Kahn topolojik sıralama. Döngü varsa</text>
+<text x="608" y="1601" class="nt">döngüdeki fazlar comparator'a (Identifier sırası) göre dizilir</text>
+<text x="608" y="1616" class="nt">ve uyarı basılır.</text>
+<path class="nl" d="M1135.0,1568 L1135.0,1544"/>
+<polygon class="note" points="2500,130 2778,130 2790,142 2790,185 2500,185"/>
+<polyline class="nf" points="2778,130 2778,142 2790,142"/>
+<text x="2508" y="148" class="nt">Event çağrıları, Fabric API'nin</text>
+<text x="2508" y="163" class="nt">MinecraftServerMixin'inin enjeksiyon</text>
+<text x="2508" y="178" class="nt">noktalarıyla aynı yerde.</text>
+<path class="nl" d="M2500,155 L2480,155"/>
+<polygon class="note" points="2500,201 2778,201 2790,213 2790,271 2500,271"/>
+<polyline class="nf" points="2778,201 2778,213 2790,213"/>
+<text x="2508" y="219" class="nt">Thread: 'Netty Server IO' thread'i</text>
+<text x="2508" y="234" class="nt">server.execute(...) ile işi kuyruğa</text>
+<text x="2508" y="249" class="nt">bırakır; lifecycle/tick/chat event'leri</text>
+<text x="2508" y="264" class="nt">'Server thread'de tetiklenir.</text>
+<path class="nl" d="M2500,226 L2480,226"/>
+<polygon class="note" points="2500,409 2778,409 2790,421 2790,449 2500,449"/>
+<polyline class="nf" points="2778,409 2778,421 2790,421"/>
+<text x="2508" y="427" class="nt">PlayerListMixin'in @At(HEAD),</text>
+<text x="2508" y="442" class="nt">cancellable=true ile enjekte ettiği kod.</text>
+<path class="nl" d="M2500,429 L2480,429"/>
+<polygon class="note" points="2500,459 2778,459 2790,471 2790,514 2500,514"/>
+<polyline class="nf" points="2778,459 2778,471 2790,471"/>
+<text x="2508" y="477" class="nt">İptal yok: ALLOW_CHAT_MESSAGE'ın invoker'ı</text>
+<text x="2508" y="492" class="nt">ilk false'ta durur; PlayerList bu durumda</text>
+<text x="2508" y="507" class="nt">CHAT_MESSAGE'ı hiç çağırmaz.</text>
+<path class="nl" d="M2500,479 L2480,479"/>
+<polygon class="note" points="2500,736 2778,736 2790,748 2790,776 2500,776"/>
+<polyline class="nf" points="2778,736 2778,748 2790,748"/>
+<text x="2508" y="754" class="nt">ConcreteObserver'lar ayrı sınıflar</text>
+<text x="2508" y="769" class="nt">değil, buradaki lambda'lardır.</text>
+<path class="nl" d="M2500,756 L2480,756"/>
+<polygon class="note" points="2500,790 2778,790 2790,802 2790,875 2500,875"/>
+<polyline class="nf" points="2778,790 2778,802 2790,802"/>
+<text x="2508" y="808" class="nt">Öncelik yerine faz: register(phase,</text>
+<text x="2508" y="823" class="nt">listener) + addPhaseOrdering(a, b).</text>
+<text x="2508" y="838" class="nt">Örnek: examplemod:early fazı sonra</text>
+<text x="2508" y="853" class="nt">kaydedilse de default fazdan önce</text>
+<text x="2508" y="868" class="nt">çalışır.</text>
+<path class="nl" d="M2500,815 L2480,815"/>
+</svg>
