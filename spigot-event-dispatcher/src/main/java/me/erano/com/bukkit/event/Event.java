@@ -4,9 +4,17 @@ import org.jetbrains.annotations.NotNull;
 
 //subject, observable, publisher, event
 public abstract class Event {
-
     private String name;
     private final boolean async;
+
+    public enum Result {
+        DENY,
+        DEFAULT,
+        ALLOW
+    }
+
+    @NotNull
+    public abstract HandlerList getHandlers();
 
     public Event() {
         this(false);
@@ -19,26 +27,12 @@ public abstract class Event {
     @NotNull
     public String getEventName() {
         if (this.name == null) {
-            this.name = this.getClass().getSimpleName();
+            this.name = getClass().getSimpleName();
         }
-
         return this.name;
     }
-
-    @NotNull
-    public abstract HandlerList getHandlers();
 
     public final boolean isAsynchronous() {
         return this.async;
     }
-
-    public static enum Result {
-        DENY,
-        DEFAULT,
-        ALLOW;
-
-        private Result() {
-        }
-    }
-
 }

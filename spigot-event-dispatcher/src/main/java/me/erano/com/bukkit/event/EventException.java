@@ -22,6 +22,7 @@ public class EventException extends Exception {
         this.cause = null;
     }
 
+    @Override
     public Throwable getCause() {
         return this.cause;
     }

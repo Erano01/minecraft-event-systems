@@ -98,11 +98,15 @@ dokundukları state'in thread safety'si plugin'in sorumluluğunda. Bu, JCiP'teki
 ## Bu modülle karşılaştırma
 
 `event/HandlerList.java` ve `plugin/SimplePluginManager#callEvent` mantık olarak birebir aynı.
-`getRegisteredListeners` bizde `do-while`, JADX çıktısında `while(true)`; bu farklı decompiler
-çıktısından geliyor, davranış aynı. Canlı doğrulama için `spigot-plugin-impl` → `Main.concurrencyDemo()`
+Canlı doğrulama için `spigot-plugin-impl` → `Main.concurrencyDemo()`
 kullanılıyor: publisher thread'ler `AsyncPingEvent` fırlatırken churn thread'ler aynı `HandlerList`'e
 concurrent `register`/`unregister` yapıyor.
 
-Henüz incelenmedi: async event'leri hangi thread'lerin fırlattığı ve `isPrimaryThread()`'in nasıl
-karar verdiği. Bunlar server tarafında (Mojang-mapped jar: `CraftServer`, `CraftScheduler`,
-`CraftEventFactory`).
+Server tarafı (`spigot-26.2-R0.1-SNAPSHOT.jar`, JADX):
+
+- `CraftServer.isPrimaryThread()`: `Thread.currentThread().equals(console.serverThread) || console.hasStopped() || RestartCommand.restarting`.
+  Bizde `DemoServer` kendisini oluşturan thread'i server thread kabul ediyor; stop/restart durumu yok.
+- `AsyncPlayerChatEvent`'i oluşturan tek yer `ServerGamePacketListenerImpl.chat(String, PlayerChatMessage, boolean async)`.
+  `async` bayrağı çağırandan geliyor: ağ thread'inden gelen sohbet paketi için `true`. Event sonrasında
+  `PlayerChatEvent` (eski sync event) için listener varsa, iş bir `Waitable` ile main thread'in
+  `processQueue`'suna verilip `waitable.get()` ile bekleniyor; async thread'den main thread'e geçişin yolu bu.

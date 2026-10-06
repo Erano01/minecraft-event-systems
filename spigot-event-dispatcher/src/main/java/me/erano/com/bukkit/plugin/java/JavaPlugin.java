@@ -1,42 +1,46 @@
 package me.erano.com.bukkit.plugin.java;
 
+import me.erano.com.bukkit.Server;
 import me.erano.com.bukkit.plugin.PluginBase;
-import me.erano.com.bukkit.plugin.PluginManager;
+import me.erano.com.bukkit.plugin.PluginDescriptionFile;
+import me.erano.com.bukkit.plugin.PluginLoader;
+import me.erano.com.bukkit.plugin.PluginLogger;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.logging.Logger;
+
 /*
- * Gercek org.bukkit.plugin.java.JavaPlugin, PluginClassLoader/Server/PluginDescriptionFile/
- * File(dataFolder)/FileConfiguration/PluginLogger alanlarini tasir; no-arg constructor'i
- * "classLoader instanceof PluginClassLoader" kontrolu yapip PluginClassLoader.initialize(this)
- * cagirir - yani bir plugin.jar'in GERCEK bir classloader tarafindan yuklenmis olmasini
- * ZORUNLU kilar. Bizde jar/classloading pipeline'i olmadigindan (bkz. Plugin.java ve
- * JavaPluginLoader.java basindaki yorumlar), bu init mekanizmasini basit bir
- * "isim dogrudan constructor'dan gelir" seklinde sadelestiriyoruz - asagidaki constructor'a
- * bakiniz, bu bilincli bir sapmadir.
+ * Gercek siniftan cikarilanlar: file/dataFolder/classLoader/newConfig/configFile alanlari ve
+ * bunlara bagli metotlar (getConfig, saveConfig, saveResource, getResource, getClassLoader...),
+ * komut sistemi (onCommand, onTabComplete, getCommand), world generation, statik
+ * getPlugin(Class)/getProvidingPlugin(Class) (PluginClassLoader'a dayanir).
  *
- * getServer().getPluginManager() zincirinin (Server'in TAMAMI kapsam disi, bkz. Plugin.java)
- * yerine, sadece event kaydi icin gereken PluginManager referansini dogrudan tasiyoruz
- * (attachPluginManager/getPluginManager). Gercek Bukkit'te bu baglama islemini
- * JavaPluginLoader.loadPlugin(File) yapar; bizde jar yukleme olmadigindan bu "bootstrap"
- * adimini CLI demo'nun kendisi (bkz. spigot-plugin-impl) ustleniyor, o yuzden
- * attachPluginManager PUBLIC (bilincli sapma). setEnabled(boolean) ise gercekteki gibi
- * PROTECTED kaldi: onu da gercekteki gibi ayni paketteki JavaPluginLoader.enablePlugin/
- * disablePlugin cagiriyor (bkz. plugin.java.JavaPluginLoader).
+ * Kurucu: gercek public no-arg kurucu "getClass().getClassLoader() instanceof PluginClassLoader"
+ * degilse IllegalStateException firlatir, sonra PluginClassLoader.initialize(this) -> init(...)
+ * cagirir. Bizde PluginClassLoader yok; kurucu bos, init(...)'i JavaPluginLoader.loadPlugin
+ * cagiriyor (bkz. JavaPluginLoader). Plugin yazari icin fark yok: yine public no-arg kurucu.
  */
 public abstract class JavaPlugin extends PluginBase {
-    private final String name;
     private boolean isEnabled = false;
+    private PluginLoader loader = null;
+    private Server server = null;
+    private PluginDescriptionFile description = null;
     private boolean naggable = true;
-    private PluginManager pluginManager;
+    private PluginLogger logger = null;
 
-    protected JavaPlugin(@NotNull String name) {
-        this.name = name;
+    public JavaPlugin() {
     }
 
-    @NotNull
     @Override
-    public final String getName() {
-        return this.name;
+    @NotNull
+    public final PluginLoader getPluginLoader() {
+        return this.loader;
+    }
+
+    @Override
+    @NotNull
+    public final Server getServer() {
+        return this.server;
     }
 
     @Override
@@ -44,11 +48,15 @@ public abstract class JavaPlugin extends PluginBase {
         return this.isEnabled;
     }
 
+    @Override
+    @NotNull
+    public final PluginDescriptionFile getDescription() {
+        return this.description;
+    }
+
     /*
-     * Gercek Bukkit'teki mekanizma birebir: enabled durumu degistiginde onEnable()/onDisable()
-     * OTOMATIK cagrilir. Bu, PluginManager.enablePlugin/disablePlugin -> PluginLoader.enable/
-     * disablePlugin -> JavaPlugin.setEnabled(boolean) zincirinin bizim CLI'daki karsiligidir
-     * (bkz. spigot-plugin-impl icindeki bootstrap).
+     * Enabled durumu degisince onEnable()/onDisable() otomatik cagrilir. Ayni paketteki
+     * JavaPluginLoader.enablePlugin/disablePlugin cagirir (protected erisim, paket-ici).
      */
     protected final void setEnabled(boolean enabled) {
         if (this.isEnabled != enabled) {
@@ -61,16 +69,11 @@ public abstract class JavaPlugin extends PluginBase {
         }
     }
 
-    public final void attachPluginManager(@NotNull PluginManager pluginManager) {
-        this.pluginManager = pluginManager;
-    }
-
-    @NotNull
-    protected final PluginManager getPluginManager() {
-        if (this.pluginManager == null) {
-            throw new IllegalStateException(getName() + " has not been attached to a PluginManager yet");
-        }
-        return this.pluginManager;
+    final void init(@NotNull PluginLoader loader, @NotNull Server server, @NotNull PluginDescriptionFile description) {
+        this.loader = loader;
+        this.server = server;
+        this.description = description;
+        this.logger = new PluginLogger(this);
     }
 
     @Override
@@ -95,9 +98,15 @@ public abstract class JavaPlugin extends PluginBase {
         this.naggable = canNag;
     }
 
-    @NotNull
     @Override
+    @NotNull
+    public Logger getLogger() {
+        return this.logger;
+    }
+
+    @Override
+    @NotNull
     public String toString() {
-        return getName();
+        return this.description.getFullName();
     }
 }

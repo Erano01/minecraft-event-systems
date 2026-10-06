@@ -6,21 +6,21 @@ uzerine yazilmis bir plugin.
 
 ## Icerik
 
-- **`ExamplePlugin`** — `JavaPlugin`'i extend eden plugin ana sinifi. `onEnable()` icinde
-  kendi listener'ini kaydediyor (gercek plugin'lerin yaptigi sey).
-- **`ExampleListener`** / **`PingCounterListener`** — `spigot-event-dispatcher`'daki event
-  tiplerini (`PlayerJoinEvent`, `AsyncPlayerChatEvent`, `AsyncPingEvent`) dinleyen Observer
-  implementasyonlari.
-- **`Main`** — "sunucu"yu temsil eden bootstrap: plugin'i yukler/enable eder, event'leri fiilen
-  tetikler (sync, async, concurrency stres testi), sonra plugin'i disable eder.
+- **`ExamplePlugin`**: `JavaPlugin`'i extend eden plugin ana sinifi. Public no-arg kurucu,
+  `onEnable()` icinde `getServer().getPluginManager().registerEvents(...)` (gercek plugin'lerin yaptigi sey).
+- **`ExampleListener`** / **`PingCounterListener`**: `PlayerJoinEvent`, `AsyncPlayerChatEvent`,
+  `PluginEnableEvent`/`PluginDisableEvent` ve `AsyncPingEvent`'i dinleyen Observer implementasyonlari.
+- **`event.AsyncPingEvent`**: plugin'in kendi custom event'i (gercek Bukkit'te yok), concurrency testi icin.
+- **`DemoServer`** / **`DemoPlayer`**: gercekte server jar'inda olan `CraftServer` / `CraftPlayer`'in
+  demo karsiliklari (bizim kodumuz).
+- **`Main`**: plugin'i yukler/enable eder, event'leri fiilen tetikler (sync, async, concurrency
+  stres testi), sonra plugin'i disable eder.
 
-Detaylar (mimari, concurrency mekanizmalari, sinif haritasi) icin bkz.
+Detaylar (sinif haritasi, concurrency) icin bkz.
 [`spigot-event-dispatcher/README.md`](../spigot-event-dispatcher/README.md).
 
 ## Calistirma
 
 ```
-./gradlew :spigot-event-dispatcher:compileJava :spigot-plugin-impl:compileJava
-java -cp spigot-event-dispatcher/build/classes/java/main:spigot-plugin-impl/build/classes/java/main:<annotations-jar> \
-     me.erano.com.bukkit.example.Main
+./gradlew -q :spigot-plugin-impl:run
 ```
